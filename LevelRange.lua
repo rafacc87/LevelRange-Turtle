@@ -231,6 +231,9 @@ LEVELRANGE_COLORS = {
     
     None        = { r = 1.0, g = 1.0, b = 1.0 },
     Levels      = { r = 0.8, g = 0.6, b = 0.0 },
+    
+    ON          = { r = 0.0, g = 1.0, b = 0.0 },
+    OFF         = { r = 1.0, g = 0.0, b = 0.0 },
 };
 
 -- Options
@@ -402,8 +405,8 @@ function printHELPMSG(msg)
    DEFAULT_CHAT_FRAME:AddMessage("|CF4FF4F4FLevelRange Help|r: " .. msg, 1, 1, 1);
 end
 
-function printOPTION(msg, status)
-   DEFAULT_CHAT_FRAME:AddMessage("|CF4FFFF4F" .. msg .. "|r" .. ": " .. status, 1 ,1 ,1);
+function printOPTION(msg, status, r, g, b)
+   DEFAULT_CHAT_FRAME:AddMessage("|CF4FFFF4F" .. msg .. ":|r " .. status, r or 1, g or 1, b or 1);
 end
 
 
@@ -478,50 +481,50 @@ end
 function toggleLevelRange()
     if (LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showLevelRange == false) then
        LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showLevelRange = true;
-       printOPTION(LEVELRANGE_TOGGLESHOW, LEVELRANGE_ENABLED);
+       printOPTION(LEVELRANGE_TOGGLESHOW, LEVELRANGE_ENABLED, LEVELRANGE_COLORS.ON.r, LEVELRANGE_COLORS.ON.g, LEVELRANGE_COLORS.ON.b);
     else
        LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showLevelRange = false;
-       printOPTION(LEVELRANGE_TOGGLESHOW, LEVELRANGE_DISABLED);
+       printOPTION(LEVELRANGE_TOGGLESHOW, LEVELRANGE_DISABLED, LEVELRANGE_COLORS.OFF.r, LEVELRANGE_COLORS.OFF.g, LEVELRANGE_COLORS.OFF.b);
     end
 end
 
 function toggleInstances()
     if (LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showInstances == false) then
        LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showInstances = true;
-       printOPTION(LEVELRANGE_TOGGLEINSTANCES, LEVELRANGE_ON);
+       printOPTION(LEVELRANGE_TOGGLEINSTANCES, LEVELRANGE_ON, LEVELRANGE_COLORS.ON.r, LEVELRANGE_COLORS.ON.g, LEVELRANGE_COLORS.ON.b);
     else
        LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showInstances = false;
-       printOPTION(LEVELRANGE_TOGGLEINSTANCES, LEVELRANGE_OFF);
+       printOPTION(LEVELRANGE_TOGGLEINSTANCES, LEVELRANGE_OFF, LEVELRANGE_COLORS.OFF.r, LEVELRANGE_COLORS.OFF.g, LEVELRANGE_COLORS.OFF.b);
     end
 end
 
 function toggleRaids()
     if (LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showRaids == false) then
        LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showRaids = true;
-       printOPTION(LEVELRANGE_TOGGLERAIDS, LEVELRANGE_ON);
+       printOPTION(LEVELRANGE_TOGGLERAIDS, LEVELRANGE_ON, LEVELRANGE_COLORS.ON.r, LEVELRANGE_COLORS.ON.g, LEVELRANGE_COLORS.ON.b);
     else
        LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showRaids = false;
-       printOPTION(LEVELRANGE_TOGGLERAIDS, LEVELRANGE_OFF);
+       printOPTION(LEVELRANGE_TOGGLERAIDS, LEVELRANGE_OFF, LEVELRANGE_COLORS.OFF.r, LEVELRANGE_COLORS.OFF.g, LEVELRANGE_COLORS.OFF.b);
     end
 end
 
 function togglePvP()
     if (LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showPvP == false) then
        LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showPvP = true;
-       printOPTION(LEVELRANGE_TOGGLEPVP, LEVELRANGE_ON);
+       printOPTION(LEVELRANGE_TOGGLEPVP, LEVELRANGE_ON, LEVELRANGE_COLORS.ON.r, LEVELRANGE_COLORS.ON.g, LEVELRANGE_COLORS.ON.b);
     else
        LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showPvP = false;
-       printOPTION(LEVELRANGE_TOGGLEPVP, LEVELRANGE_OFF);
+       printOPTION(LEVELRANGE_TOGGLEPVP, LEVELRANGE_OFF, LEVELRANGE_COLORS.OFF.r, LEVELRANGE_COLORS.OFF.g, LEVELRANGE_COLORS.OFF.b);
     end
 end
 
 function toggleFishing()
     if (LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showFishing == false) then
        LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showFishing = true;
-       printOPTION(LEVELRANGE_TOGGLEFISHING, LEVELRANGE_ON);
+       printOPTION(LEVELRANGE_TOGGLEFISHING, LEVELRANGE_ON, LEVELRANGE_COLORS.ON.r, LEVELRANGE_COLORS.ON.g, LEVELRANGE_COLORS.ON.b);
     else
        LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showFishing = false;
-       printOPTION(LEVELRANGE_TOGGLEFISHING, LEVELRANGE_OFF);
+       printOPTION(LEVELRANGE_TOGGLEFISHING, LEVELRANGE_OFF, LEVELRANGE_COLORS.OFF.r, LEVELRANGE_COLORS.OFF.g, LEVELRANGE_COLORS.OFF.b);
     end
 end
 --------------------------------------------------------------------------------------------------
