@@ -188,7 +188,7 @@ LEVELRANGE_OPTIONS[1] = {   -- Option 1
     label                   = "Enable LevelRange",
     option                  = "showLevelRange",
     tooltip                 = "Show/hide LevelRange tooltip",
-    children                = {2, 3, 4},
+    children                = {2, 3, 4, 5},
 };
 LEVELRANGE_OPTIONS[2] = {   -- Option 2
     label                   = "Show Instances",
