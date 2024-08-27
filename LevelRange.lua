@@ -1,7 +1,7 @@
 --
 -- LevelRange :: Main Lua File
 -- Copyright (c) 2006 Philip Hughes (Bull3t)
--- 
+--
 -- Shows the zone level range on the World Map.
 --
 -- Thanks to Dhask for allowing the use of his FlightMap.
@@ -10,8 +10,6 @@
 -- the condition that the licensee accepts all responsibility and liability
 -- for any damage that may arise from the use of this AddOn.
 --
-
-
 --------------------------------------------------------------------------------------------------
 -- Global Variables
 --------------------------------------------------------------------------------------------------
@@ -106,7 +104,7 @@ LEVELRANGE_RANGES = {
 
     [LEVELRANGE_MOONGLADE]              = { 1, 60, lTYPE_CONTESTED},
     [LEVELRANGE_TELDRASSIL]             = { 1, 10, lTYPE_ALLIANCE},
-    
+
     -- Turtle WoW Zones
     [LEVELRANGE_THALASSIANHIGHLANDS]    = { 1, 10, lTYPE_ALLIANCE},
     [LEVELRANGE_BLACKSTONEISLAND]       = { 1, 10, lTYPE_HORDE},
@@ -142,7 +140,7 @@ LEVELRANGE_FISHING = {
     [LEVELRANGE_WESTERNPLAGUE]      = {300},
     --[LEVELRANGE_EASTERNPLAGUE]      = {0},
     --[LEVELRANGE_DEADWINDPASS]       = {0},
-    
+
     [LEVELRANGE_DUROTAR]            = {25},
     [LEVELRANGE_MULGORE]            = {25},
     [LEVELRANGE_DARKSHORE]          = {75},
@@ -173,10 +171,10 @@ LEVELRANGE_FISHING = {
 
 -- Instances
 LEVELRANGE_INSTANCES = {
-    [LEVELRANGE_WESTFALL]           = {LEVELRANGE_DEADMINES, " (17-26)"},    
+    [LEVELRANGE_WESTFALL]           = {LEVELRANGE_DEADMINES, " (17-26)"},
     [LEVELRANGE_BARRENS]            = {LEVELRANGE_WAILINGCAVERNS, " (17-24)", LEVELRANGE_RAZORFENKRAUL, " (25-30)", LEVELRANGE_RAZORFENDOWNS, " (33-45)"},
     [LEVELRANGE_SILVERPINE]         = {LEVELRANGE_SHADOWFANGKEEP, " (22-30)"},
-    
+
     [LEVELRANGE_DUNMOROGH]          = {LEVELRANGE_GNOMEREGAN, " (29-38)"},
     [LEVELRANGE_TIRISFAL]           = {LEVELRANGE_SCARLETMONASTERY, " (34-45)"},
     [LEVELRANGE_BADLANDS]           = {LEVELRANGE_ULDAMAN, " (35-47)"},
@@ -187,7 +185,7 @@ LEVELRANGE_INSTANCES = {
     [LEVELRANGE_FERALAS]            = {LEVELRANGE_DIREMAUL, " (55-60)"},
     [LEVELRANGE_WESTERNPLAGUE]      = {LEVELRANGE_SCHOLOMANCE, " (57-60)"},
     [LEVELRANGE_DUROTAR]            = {LEVELRANGE_RAGEFIRECHASM, " (13-18)"},
-    
+
     -- Turtle WoW Dungeons
     [LEVELRANGE_ASHENVALE]          = {LEVELRANGE_BLACKFATHOMDEEPS, " (24-32)", LEVELRANGE_CRESCENTGROVE, " (32-38)"},
     [LEVELRANGE_GILNEAS]            = {LEVELRANGE_GILNEASCITY, " (43-49)"},
@@ -203,7 +201,7 @@ LEVELRANGE_RAIDS = {
     [LEVELRANGE_DUSTWALLOW]         = {LEVELRANGE_ONYXIASLAIR, " (60+)"},
     [LEVELRANGE_SILITHUS]           = {LEVELRANGE_RUINSAHNQIRAJ, " (60+)", LEVELRANGE_TEMPLEAHNQIRAJ, " (60+)"},
     [LEVELRANGE_STRANGLETHORN]      = {LEVELRANGE_ZULGURUB, " (60+)"},
-    
+
     -- Turtle WoW Raids
     [LEVELRANGE_HYJAL]              = {LEVELRANGE_EMERALDSANCTUM, " (60+)"},
     [LEVELRANGE_DEADWINDPASS]       = {LEVELRANGE_LOWERKARAZHANHALLS, " (60+)"},
@@ -217,7 +215,7 @@ LEVELRANGE_SUBZONES = {
     [LEVELRANGE_IRONFORGE]          = LEVELRANGE_DUNMOROGH,
     [LEVELRANGE_STORMWIND]          = LEVELRANGE_ELWYNN,
     [LEVELRANGE_DARNASSUS]          = LEVELRANGE_TELDRASSIL,
-    
+
     -- Turtle WoW Sub-zones
     [LEVELRANGE_ALAHTHALAS]         = LEVELRANGE_THALASSIANHIGHLANDS,
 };
@@ -228,10 +226,10 @@ LEVELRANGE_COLORS = {
     Hostile     = { r = 0.9, g = 0.2, b = 0.2 },
     Friendly    = { r = 0.2, g = 0.9, b = 0.2 },
     Contested   = { r = 0.8, g = 0.6, b = 0.4 },
-    
+
     None        = { r = 1.0, g = 1.0, b = 1.0 },
     Levels      = { r = 0.8, g = 0.6, b = 0.0 },
-    
+
     ON          = { r = 0.0, g = 1.0, b = 0.0 },
     OFF         = { r = 1.0, g = 0.0, b = 0.0 },
 };
@@ -248,7 +246,7 @@ LevelRange = {
 
 -- Update the tooltip for a zone
 local function lUpdateTooltip(zoneName)
-    
+
     -- Check Toggle
     if (LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showLevelRange == false) then
         LevelRangeTooltip:Hide();
@@ -278,7 +276,7 @@ local function lUpdateTooltip(zoneName)
         local min = LEVELRANGE_RANGES[zoneName][1];
         local max = LEVELRANGE_RANGES[zoneName][2];
         local side = LEVELRANGE_RANGES[zoneName][3];
-        
+
         if (side == lTYPE_CONTESTED) then
             title = LEVELRANGE_COLORS.Contested;
             actualside = "Contested";
@@ -314,14 +312,14 @@ local function lUpdateTooltip(zoneName)
             LevelRangeTooltip:AddLine(flevel, levelscol.r, levelscol.g, levelscol.b);
         end
     end
-    
+
     -- Show diplomacy if known and if wanted
     if (LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showPvP == true) then
         if actualside then
             LevelRangeTooltip:AddLine(actualside, title.r, title.g, title.b);
         end
     end
-    
+
     -- Add instance info if wanted
     if (LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showInstances == true) then
         if (LEVELRANGE_INSTANCES[zoneName]) then
@@ -434,14 +432,14 @@ function LevelRange_SlashHandler(msg)
     local Cmd, SubCmd = LevelRange_GetCmd(msg); -- call to above function
     if (Cmd == "help") then
         showHelp();
-    
+
     elseif (Cmd == "list") then
         printInstances();
-    
+
     -- Toggle LevelRange tooltip
     elseif (Cmd == "toggle") then
         toggleLevelRange();
-    
+
     -- Toggle LevelRange showing instances
     elseif (Cmd == "instances") then
         toggleInstances();
@@ -530,11 +528,13 @@ function toggleFishing()
        printOPTION(LEVELRANGE_TOGGLEFISHING, LEVELRANGE_OFF, LEVELRANGE_COLORS.OFF.r, LEVELRANGE_COLORS.OFF.g, LEVELRANGE_COLORS.OFF.b);
     end
 end
+
+
 --------------------------------------------------------------------------------------------------
 -- Instance and Raid Information
 --------------------------------------------------------------------------------------------------
 
-function getInstanceLevels(zoneName, theTooltip) 
+function getInstanceLevels(zoneName, theTooltip)
     if (LEVELRANGE_INSTANCES[zoneName]) then
         if (LEVELRANGE_INSTANCES[zoneName][1]) then
             theTooltip:AddDoubleLine("|CFFcFcFcF" .. LEVELRANGE_INSTANCES[zoneName][1] .. "|r", "|CFFcFcFcF" .. LEVELRANGE_INSTANCES[zoneName][2] .. "|r");
@@ -548,7 +548,7 @@ function getInstanceLevels(zoneName, theTooltip)
     end
 end
 
-function getRaidLevels(zoneName, theTooltip) 
+function getRaidLevels(zoneName, theTooltip)
     if (LEVELRANGE_RAIDS[zoneName]) then
         if (LEVELRANGE_RAIDS[zoneName][1]) then
             theTooltip:AddDoubleLine("|CFFcFcFcF" .. LEVELRANGE_RAIDS[zoneName][1] .. "|r", "|CFFcFcFcF" .. LEVELRANGE_RAIDS[zoneName][2] .. "|r");
@@ -583,7 +583,7 @@ function LevelRangeOptionsFrame_OnShow()
         button.tooltipText = option.tooltip;
         button.option = option.option;
         button.children = option.children or {};
-    end 
+    end
 
     for optid, option in pairs(LEVELRANGE_OPTIONS) do
         -- Enable/disable any children
@@ -621,7 +621,7 @@ function LevelRangeOptionsCheckButton_OnClick()
     elseif (this.option == "showFishing") then
         toggleFishing();
     end
-    
+
     if (this:GetChecked()) then
         LevelRange.Opts[this.option] = true;
     else
@@ -644,9 +644,9 @@ end
 
 -- Load Settings
 function loadSettings()
-   if (LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showLevelRange == true) then    
+   if (LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showLevelRange == true) then
         local optionButton = getglobal("LevelRangeOptionsFrame" .. "Opt1");
-        
+
         optionButton:SetChecked(true);
         LevelRange.Opts["showLevelRange"] = true;
 
@@ -659,20 +659,20 @@ function loadSettings()
 
     if (LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showInstances == true) then
         local optionButton = getglobal("LevelRangeOptionsFrame" .. "Opt2");
-        
+
         optionButton:SetChecked(true);
         LevelRange.Opts["showInstances"] = true;
 
     elseif (LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showInstances == false) then
         local optionButton = getglobal("LevelRangeOptionsFrame" .. "Opt2");
-        
+
         optionButton:SetChecked(false);
         LevelRange.Opts["showInstances"] = false;
     end
 
     if (LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showRaids == true) then
         local optionButton = getglobal("LevelRangeOptionsFrame" .. "Opt3");
-        
+
         optionButton:SetChecked(true);
         LevelRange.Opts["showRaids"] = true;
 
@@ -685,7 +685,7 @@ function loadSettings()
 
     if (LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showPvP == true) then
         local optionButton = getglobal("LevelRangeOptionsFrame" .. "Opt4");
-        
+
         optionButton:SetChecked(true);
         LevelRange.Opts["showPvP"] = true;
 
@@ -698,7 +698,7 @@ function loadSettings()
 
     if (LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showFishing == true) then
         local optionButton = getglobal("LevelRangeOptionsFrame" .. "Opt5");
-        
+
         optionButton:SetChecked(true);
         LevelRange.Opts["showFishing"] = true;
 
@@ -720,7 +720,7 @@ function LevelRange_OnLoad()
     -- Override the world map function
     lLR_OldUpdate = WorldMapButton_OnUpdate;
     WorldMapButton_OnUpdate = LevelRange_WorldMapButton_OnUpdate;
-    
+
     -- Setup slash commands
     SlashCmdList["LEVELRANGE"] = LevelRange_SlashHandler;
     SLASH_LEVELRANGE1 = "/" .. LEVELRANGE_SLASH1;
@@ -779,7 +779,7 @@ end
 function LevelRange_OnEvent(event)
     if (event == "VARIABLES_LOADED") then
         LevelRange_Initialize();
-    
+
         -- Register LevelRange with myAddons
         if (myAddOnsFrame_Register) then
             myAddOnsFrame_Register(Details, Help);

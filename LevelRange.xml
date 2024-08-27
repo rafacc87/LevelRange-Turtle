@@ -38,6 +38,7 @@
       </OnLoad>
     </Scripts>
   </GameTooltip>
+
   <!-- Configuration checkbox template -->
   <CheckButton name="LevelRangeOptionsCheckButtonTemplate"
                inherits="UICheckButtonTemplate" virtual="true">
@@ -111,7 +112,7 @@
       </Layer>
     </Layers>
     <Frames>
-      
+
       <!-- Option #1; row 1, column 1 -->
       <CheckButton name="$parentOpt1"
                    inherits="LevelRangeOptionsCheckButtonTemplate">
@@ -160,7 +161,7 @@
         </Anchors>
       </CheckButton>
 
-	  <!-- Option #5; row 5, column 1 -->
+      <!-- Option #5; row 5, column 1 -->
       <CheckButton name="$parentOpt5"
                    inherits="LevelRangeOptionsCheckButtonTemplate">
         <Anchors>
@@ -171,7 +172,7 @@
           </Anchor>
         </Anchors>
       </CheckButton>
-      
+
       <Button name="LevelRangeOptionsFrameClose"
               inherits="OptionsButtonTemplate" text="Close">
         <Anchors>
