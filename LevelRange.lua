@@ -382,6 +382,9 @@ function LevelRange_WorldMapButton_OnUpdate(arg1)
     -- Bail out if nothing has changed
     if zoneNum == lLR_CurrentZone and areaName == lLR_CurrentArea then
         return;
+    else
+      lLR_CurrentZone = zoneNum;
+      lLR_CurrentArea = areaName;
     end
 
     -- Continent or zone map?
