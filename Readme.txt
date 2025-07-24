@@ -26,7 +26,9 @@ Change Log
  [*] Bugfix: Variables to prevent unnecessary updates were never set which was causing unnecessary updates to be performed.
  [*] Bugfix: Added missing index for Fishing option which was causing it to not appear in the settings window.
  [*] Added colors to status messages when toggling options.
- [*] Cleaned up code formatting: Converted stray tabs to spaces, removed trailing whitespace, fixed some indentation, reordered some lines, etc.
+ [*] Cleaned up code: Converted stray tabs to spaces, removed trailing whitespace, fixed some indentation, reordered some lines, etc.
+ [*] Cleaned up TOC file.
+ [*] Added my name to list of authors.
  [*] Addon forked on GitHub by Spartelfant in order to fix some bugs.
 
 2.0.3 - Update (blehz.)
