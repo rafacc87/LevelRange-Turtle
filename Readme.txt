@@ -11,7 +11,7 @@ Title: 	        LevelRange
 Interface:      11200
 Version:        2.0.3
 
-Author:         Bull3t, Tenyar97, rado-boy, blehz.
+Author:         Bull3t, Tenyar97, rado-boy, blehz, Spartelfant.
 Addon Website:  https://github.com/Tenyar97/LevelRange-Turtle
 
 Current Features:
@@ -22,6 +22,13 @@ Current Features:
 ----------------------
 Change Log
 ----------------------
+2.0.4 - Update (Spartelfant)
+ [*] Bugfix: Variables to prevent unnecessary updates were never set which was causing unnecessary updates to be performed.
+ [*] Bugfix: Added missing index for Fishing option which was causing it to not appear in the settings window.
+ [*] Added colors to status messages when toggling options.
+ [*] Cleaned up code formatting: Converted stray tabs to spaces, removed trailing whitespace, fixed some indentation, reordered some lines, etc.
+ [*] Addon forked on GitHub by Spartelfant in order to fix some bugs.
+
 2.0.3 - Update (blehz.)
  [*] Updated zones, dungeons and raids to Turtle WoW 1.17.1.
 
