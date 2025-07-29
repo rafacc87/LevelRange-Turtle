@@ -85,7 +85,7 @@ LEVELRANGE_RUINSOFZULRASAZ      = "Ruins of Zul'rasaz";
 LEVELRANGE_TIRISFALUPLANDS      = "Tirisfal Uplands";
 -- patch 1.18 preparation
 LEVELRANGE_SLICKWICKOILRIG      = "Slickwick Oil Rig";
-LEVELRANGE_RUGFORDSMOUNTAINREST = "Rugford's Mountain Rest"
+LEVELRANGE_RUGFORDSMOUNTAINREST = "Rugford's Mountain Rest";
 LEVELRANGE_EARTHENRING          = "Earthen Ring";
 
 -- Dungeons
