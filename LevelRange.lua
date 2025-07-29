@@ -134,12 +134,12 @@ LEVELRANGE_FISHING = {
     [LEVELRANGE_BADLANDS]           = {35},
     [LEVELRANGE_SORROWS]            = {225},
     [LEVELRANGE_HINTERLANDS]        = {300},
-    --[LEVELRANGE_SEARINGGORGE]       = {0},
-    --[LEVELRANGE_BLASTEDLANDS]       = {0},
-    --[LEVELRANGE_BURNINGSTEPPE]      = {0},
+    -- [LEVELRANGE_SEARINGGORGE]       = {0},
+    -- [LEVELRANGE_BLASTEDLANDS]       = {0},
+    -- [LEVELRANGE_BURNINGSTEPPE]      = {0},
     [LEVELRANGE_WESTERNPLAGUE]      = {300},
-    --[LEVELRANGE_EASTERNPLAGUE]      = {0},
-    --[LEVELRANGE_DEADWINDPASS]       = {0},
+    -- [LEVELRANGE_EASTERNPLAGUE]      = {0},
+    -- [LEVELRANGE_DEADWINDPASS]       = {0},
 
     [LEVELRANGE_DUROTAR]            = {25},
     [LEVELRANGE_MULGORE]            = {25},
@@ -155,18 +155,18 @@ LEVELRANGE_FISHING = {
     [LEVELRANGE_AZSHARA]            = {300},
     [LEVELRANGE_FELWOOD]            = {300},
     [LEVELRANGE_UNGOROCRATER]       = {300},
-    --[LEVELRANGE_SILITHUS]           = {0},
-    --[LEVELRANGE_WINTERSPRING]       = {0},
+    -- [LEVELRANGE_SILITHUS]           = {0},
+    -- [LEVELRANGE_WINTERSPRING]       = {0},
 
     [LEVELRANGE_MOONGLADE]          = {300},
     [LEVELRANGE_TELDRASSIL]         = {25},
 
-    --Turtle WoW Zones
-    --[LEVELRANGE_GILNEAS]            = {0},
-    --[LEVELRANGE_GILLIJIM]           = {0},
-    --[LEVELRANGE_LAPIDIS]            = {0},
-    --[LEVELRANGE_TELABIM]            = {0},
-    --[LEVELRANGE_HYJAL]              = {0},
+    -- Turtle WoW Zones
+    -- [LEVELRANGE_GILNEAS]            = {0},
+    -- [LEVELRANGE_GILLIJIM]           = {0},
+    -- [LEVELRANGE_LAPIDIS]            = {0},
+    -- [LEVELRANGE_TELABIM]            = {0},
+    -- [LEVELRANGE_HYJAL]              = {0},
 };
 
 -- Instances
@@ -337,7 +337,7 @@ local function lUpdateTooltip(zoneName)
     end
 
     -- This stuff seems to get reset each time
-    --LevelRangeTooltip:SetBackdropColor(0, 0, 0, 0.8);
+    -- LevelRangeTooltip:SetBackdropColor(0, 0, 0, 0.8);
     LevelRangeTooltip:SetBackdropBorderColor(1, 1, 1, 1);
     LevelRangeTooltip:ClearAllPoints();
     LevelRangeTooltip:SetPoint("BOTTOMLEFT", "WorldMapDetailFrame", "BOTTOMLEFT", 0, 0);

@@ -57,7 +57,7 @@ LEVELRANGE_WESTFALL             = "Westfall";
 LEVELRANGE_WETLANDS             = "Wetlands";
 LEVELRANGE_WINTERSPRING         = "Winterspring";
 
---Turtle WoW Zones
+-- Turtle WoW Zones
 LEVELRANGE_BLACKSTONEISLAND     = "Blackstone Island";
 LEVELRANGE_GILLIJIM             = "Gillijim's Isle";
 LEVELRANGE_GILNEAS              = "Gilneas";
@@ -75,12 +75,12 @@ LEVELRANGE_STORMWIND            = "Stormwind City";
 LEVELRANGE_THUNDERBLUFF         = "Thunder Bluff";
 LEVELRANGE_UNDERCITY            = "Undercity";
 
---Turtle WoW Sub-zones
+-- Turtle WoW Sub-zones
 LEVELRANGE_ALAHTHALAS           = "Alah'Thalas";
 LEVELRANGE_RUINSOFZULRASAZ      = "Ruins of Zul'rasaz";
 LEVELRANGE_TIRISFALUPLANDS      = "Tirisfal Uplands";
 
--- Instances
+-- Dungeons
 LEVELRANGE_INSTANCESTEXT        = "Instances:";
 
 LEVELRANGE_BLACKFATHOMDEEPS     = "Blackfathom Deeps";
@@ -103,7 +103,7 @@ LEVELRANGE_ULDAMAN              = "Uldaman";
 LEVELRANGE_WAILINGCAVERNS       = "Wailing Caverns";
 LEVELRANGE_ZULFARRAK            = "Zul'Farrak";
 
---Turtle WoW Dungeons
+-- Turtle WoW Dungeons
 LEVELRANGE_COTBLACKMORASS       = "Caverns of Time: The Black Morass";
 LEVELRANGE_CRESCENTGROVE        = "The Crescent Grove";
 LEVELRANGE_GILNEASCITY          = "Gilneas City";
@@ -120,7 +120,7 @@ LEVELRANGE_RUINSAHNQIRAJ        = "Ruins of Ahn'Qiraj";
 LEVELRANGE_TEMPLEAHNQIRAJ       = "Temple of Ahn'Qiraj";
 LEVELRANGE_ZULGURUB             = "Zul'Gurub";
 
---Turtle WoW Raids
+-- Turtle WoW Raids
 LEVELRANGE_EMERALDSANCTUM       = "Emerald Sanctum";
 LEVELRANGE_LOWERKARAZHANHALLS   = "Lower Karazhan Halls";
 
