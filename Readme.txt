@@ -1,7 +1,5 @@
 --
 -- LevelRange :: Readme
--- Copyright (c) 2006 Philip Hughes (Bull3t) 
--- http://bull3t.blogspot.com
 -- 
 
 ----------------------

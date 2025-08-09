@@ -1,6 +1,5 @@
 --
 -- LevelRange :: Translatable Strings - English
--- Copyright (c) 2006 Philip Hughes (Bull3t)
 --
 --------------------------------------------------------------------------------------------------
 -- Localised Strings - English
