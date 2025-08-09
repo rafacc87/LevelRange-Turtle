@@ -7,7 +7,7 @@ Details
 ----------------------
 Title: 	        LevelRange
 Interface:      11200
-Version:        2.0.5
+Version:        (dev)
 
 Author:         Bull3t, Tenyar97, rado-boy, blehz, Spartelfant.
 Addon Website:  https://github.com/Spartelfant/LevelRange-Turtle
@@ -20,6 +20,10 @@ Current Features:
 ----------------------
 Change Log
 ----------------------
+(dev) - Update (Spartelfant)
+ [*] Added MIT license and removed duplicate copyright notices from several files.
+ [*] Removed myAddons support, an ancient Addon manager. If anyone would like this added back in please create an issue at https://github.com/Spartelfant/LevelRange-Turtle/issues/
+
 2.0.5 - Update (Spartelfant)
  [*] New zones added for patch 1.18 (Grim Reaches, Northwind, Balor)
  [*] New dungeons added for patch 1.18 (Stormwrought Ruins, Dragonmaw Retreat)

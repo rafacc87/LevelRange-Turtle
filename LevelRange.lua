@@ -10,7 +10,7 @@
 --------------------------------------------------------------------------------------------------
 
 -- Version Number
-LEVELRANGE_VERSION  = "2.0.5";
+LEVELRANGE_VERSION  = "(dev)";
 
 -- Player Info
 playerName = UnitName("player");
