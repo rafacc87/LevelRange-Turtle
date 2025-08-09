@@ -18,7 +18,7 @@
 LEVELRANGE_NAME     = "LevelRange"
 
 -- Version Number
-LEVELRANGE_VERSION  = "2.0.4";
+LEVELRANGE_VERSION  = "2.0.5";
 
 -- Details
 Details = {
@@ -114,7 +114,7 @@ LEVELRANGE_RANGES = {
     [LEVELRANGE_TELABIM]                = {54, 60, lTYPE_CONTESTED},
     [LEVELRANGE_SCARLETENCLAVE]         = {55, 60, lTYPE_CONTESTED},
     [LEVELRANGE_HYJAL]                  = {58, 60, lTYPE_CONTESTED},
-    -- patch 1.18 preparation
+    -- added in patch 1.18
     [LEVELRANGE_GRIMREACHES]            = {33, 38, lTYPE_CONTESTED},
     [LEVELRANGE_NORTHWIND]              = {28, 34, lTYPE_CONTESTED},
     [LEVELRANGE_BALOR]                  = {29, 34, lTYPE_CONTESTED},
@@ -171,6 +171,11 @@ LEVELRANGE_FISHING = {
     -- [LEVELRANGE_LAPIDIS]            = {0},
     -- [LEVELRANGE_TELABIM]            = {0},
     -- [LEVELRANGE_HYJAL]              = {0},
+
+    -- added in patch 1.18 - TODO as of yet unknown, to be verified after patch release
+    -- [LEVELRANGE_GRIMREACHES]        = {0},
+    -- [LEVELRANGE_NORTHWIND]          = {0},
+    -- [LEVELRANGE_BALOR]              = {0},
 };
 
 -- Instances
@@ -197,7 +202,7 @@ LEVELRANGE_INSTANCES = {
     [LEVELRANGE_DEADWINDPASS]       = {LEVELRANGE_KARAZHANCRYPT, " (58 - 60)"},
     [LEVELRANGE_ELWYNN]             = {LEVELRANGE_STOCKADES, " (24-32)", LEVELRANGE_STORMWINDVAULT, " (60+)"},
     [LEVELRANGE_TANARIS]            = {LEVELRANGE_ZULFARRAK, " (44-54)", LEVELRANGE_COTBLACKMORASS, " (60+)"},
-    -- patch 1.18 preparation
+    -- added in patch 1.18
     [LEVELRANGE_BALOR]              = {LEVELRANGE_STORMWROUGHTRUINS, " (35-41)"},
     [LEVELRANGE_GRIMREACHES]        = {LEVELRANGE_DRAGONMAWRETREAT, " (27-33)"},
 };

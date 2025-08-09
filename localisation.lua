@@ -66,7 +66,7 @@ LEVELRANGE_LAPIDIS              = "Lapidis Isle";
 LEVELRANGE_SCARLETENCLAVE       = "Scarlet Enclave";
 LEVELRANGE_TELABIM              = "Tel'Abim";
 LEVELRANGE_THALASSIANHIGHLANDS  = "Thalassian Highlands";
--- patch 1.18 preparation
+-- added in patch 1.18
 LEVELRANGE_GRIMREACHES          = "Grim Reaches";
 LEVELRANGE_NORTHWIND            = "Northwind";
 LEVELRANGE_BALOR                = "Balor";
@@ -83,7 +83,7 @@ LEVELRANGE_UNDERCITY            = "Undercity";
 LEVELRANGE_ALAHTHALAS           = "Alah'Thalas";
 LEVELRANGE_RUINSOFZULRASAZ      = "Ruins of Zul'rasaz";
 LEVELRANGE_TIRISFALUPLANDS      = "Tirisfal Uplands";
--- patch 1.18 preparation
+-- added in patch 1.18
 LEVELRANGE_SLICKWICKOILRIG      = "Slickwick Oil Rig";
 LEVELRANGE_RUGFORDSMOUNTAINREST = "Rugford's Mountain Rest";
 LEVELRANGE_EARTHENRING          = "Earthen Ring";
@@ -118,7 +118,7 @@ LEVELRANGE_GILNEASCITY          = "Gilneas City";
 LEVELRANGE_HATEFORGEQUARRY      = "Hateforge Quarry";
 LEVELRANGE_KARAZHANCRYPT        = "Karazhan Crypt";
 LEVELRANGE_STORMWINDVAULT       = "Stormwind Vault";
--- patch 1.18 preparation
+-- added in patch 1.18
 LEVELRANGE_STORMWROUGHTRUINS    = "Stormwrought Ruins";
 LEVELRANGE_DRAGONMAWRETREAT     = "Dragonmaw Retreat";
 
