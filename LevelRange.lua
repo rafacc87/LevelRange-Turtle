@@ -9,28 +9,8 @@
 -- Global Variables
 --------------------------------------------------------------------------------------------------
 
--- Name
-LEVELRANGE_NAME     = "LevelRange"
-
 -- Version Number
 LEVELRANGE_VERSION  = "2.0.5";
-
--- Details
-Details = {
-    name            = LEVELRANGE_NAME,
-    version         = LEVELRANGE_VERSION,
-    releaseDate     = "Feb 19, 2024",
-    author          = "Bull3t, Tenyar97, rado-boy, blehz.",
-    email           = "",
-    website         = "https://github.com/Spartelfant/LevelRange-Turtle",
-    category        = MYADDONS_CATEGORY_MAP,
-    optionsframe    = "LevelRangeOptionsFrame"
-};
-
--- Help
-Help = {
-    [1] = LEVELRANGE_HELP0 .. "\n" .. LEVELRANGE_HELP1 .. "\n" .. LEVELRANGE_HELP2 .. "\n" .. LEVELRANGE_HELP3 .. "\n" .. LEVELRANGE_HELP4 .. "\n" .. LEVELRANGE_HELP5 .. "\n" .. LEVELRANGE_HELP6,
-};
 
 -- Player Info
 playerName = UnitName("player");
@@ -786,10 +766,5 @@ end
 function LevelRange_OnEvent(event)
     if (event == "VARIABLES_LOADED") then
         LevelRange_Initialize();
-
-        -- Register LevelRange with myAddons
-        if (myAddOnsFrame_Register) then
-            myAddOnsFrame_Register(Details, Help);
-        end
     end
 end

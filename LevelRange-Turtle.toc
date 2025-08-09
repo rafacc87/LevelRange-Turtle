@@ -4,6 +4,5 @@
 ## Author: Bull3t, Tenyar97, rado-boy, blehz, Spartelfant.
 ## Notes: Shows the zone level range on the World Map. Now with 100% more turtles!
 ## URL: https://github.com/Spartelfant/LevelRange-Turtle
-## OptionalDeps: myAddOns
 ## SavedVariables: LevelRangeSettings
 LevelRange.xml
