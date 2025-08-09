@@ -10,7 +10,7 @@ Interface:      11200
 Version:        2.0.5
 
 Author:         Bull3t, Tenyar97, rado-boy, blehz, Spartelfant.
-Addon Website:  https://github.com/Tenyar97/LevelRange-Turtle
+Addon Website:  https://github.com/Spartelfant/LevelRange-Turtle
 
 Current Features:
  [*] Shows zone level ranges, diplomacy, raids and instances on World Map.

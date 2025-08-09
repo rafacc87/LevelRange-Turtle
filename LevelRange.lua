@@ -22,7 +22,7 @@ Details = {
     releaseDate     = "Feb 19, 2024",
     author          = "Bull3t, Tenyar97, rado-boy, blehz.",
     email           = "",
-    website         = "https://github.com/Tenyar97/LevelRange-Turtle",
+    website         = "https://github.com/Spartelfant/LevelRange-Turtle",
     category        = MYADDONS_CATEGORY_MAP,
     optionsframe    = "LevelRangeOptionsFrame"
 };
