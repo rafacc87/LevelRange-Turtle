@@ -9,7 +9,7 @@ Details
 ----------------------
 Title: 	        LevelRange
 Interface:      11200
-Version:        2.0.4
+Version:        2.0.5
 
 Author:         Bull3t, Tenyar97, rado-boy, blehz, Spartelfant.
 Addon Website:  https://github.com/Tenyar97/LevelRange-Turtle
@@ -22,6 +22,11 @@ Current Features:
 ----------------------
 Change Log
 ----------------------
+2.0.5 - Update (Spartelfant)
+ [*] New zones added for patch 1.18 (Grim Reaches, Northwind, Balor)
+ [*] New dungeons added for patch 1.18 (Stormwrought Ruins, Dragonmaw Retreat)
+ [*] Fishing skill required for new zones not yet known, will be added some time after patch release
+
 2.0.4 - Update (Spartelfant)
  [*] Bugfix: Variables to prevent unnecessary updates were never set which was causing unnecessary updates to be performed.
  [*] Bugfix: Added missing index for Fishing option which was causing it to not appear in the settings window.

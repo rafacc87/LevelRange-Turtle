@@ -57,7 +57,7 @@ LEVELRANGE_WESTFALL             = "Westfall";
 LEVELRANGE_WETLANDS             = "Wetlands";
 LEVELRANGE_WINTERSPRING         = "Winterspring";
 
---Turtle WoW Zones
+-- Turtle WoW Zones
 LEVELRANGE_BLACKSTONEISLAND     = "Blackstone Island";
 LEVELRANGE_GILLIJIM             = "Gillijim's Isle";
 LEVELRANGE_GILNEAS              = "Gilneas";
@@ -66,6 +66,10 @@ LEVELRANGE_LAPIDIS              = "Lapidis Isle";
 LEVELRANGE_SCARLETENCLAVE       = "Scarlet Enclave";
 LEVELRANGE_TELABIM              = "Tel'Abim";
 LEVELRANGE_THALASSIANHIGHLANDS  = "Thalassian Highlands";
+-- added in patch 1.18
+LEVELRANGE_GRIMREACHES          = "Grim Reaches";
+LEVELRANGE_NORTHWIND            = "Northwind";
+LEVELRANGE_BALOR                = "Balor";
 
 -- Sub-zones
 LEVELRANGE_DARNASSUS            = "Darnassus";
@@ -75,12 +79,16 @@ LEVELRANGE_STORMWIND            = "Stormwind City";
 LEVELRANGE_THUNDERBLUFF         = "Thunder Bluff";
 LEVELRANGE_UNDERCITY            = "Undercity";
 
---Turtle WoW Sub-zones
+-- Turtle WoW Sub-zones
 LEVELRANGE_ALAHTHALAS           = "Alah'Thalas";
 LEVELRANGE_RUINSOFZULRASAZ      = "Ruins of Zul'rasaz";
 LEVELRANGE_TIRISFALUPLANDS      = "Tirisfal Uplands";
+-- added in patch 1.18
+LEVELRANGE_SLICKWICKOILRIG      = "Slickwick Oil Rig";
+LEVELRANGE_RUGFORDSMOUNTAINREST = "Rugford's Mountain Rest";
+LEVELRANGE_EARTHENRING          = "Earthen Ring";
 
--- Instances
+-- Dungeons
 LEVELRANGE_INSTANCESTEXT        = "Instances:";
 
 LEVELRANGE_BLACKFATHOMDEEPS     = "Blackfathom Deeps";
@@ -103,13 +111,16 @@ LEVELRANGE_ULDAMAN              = "Uldaman";
 LEVELRANGE_WAILINGCAVERNS       = "Wailing Caverns";
 LEVELRANGE_ZULFARRAK            = "Zul'Farrak";
 
---Turtle WoW Dungeons
+-- Turtle WoW Dungeons
 LEVELRANGE_COTBLACKMORASS       = "Caverns of Time: The Black Morass";
 LEVELRANGE_CRESCENTGROVE        = "The Crescent Grove";
 LEVELRANGE_GILNEASCITY          = "Gilneas City";
 LEVELRANGE_HATEFORGEQUARRY      = "Hateforge Quarry";
 LEVELRANGE_KARAZHANCRYPT        = "Karazhan Crypt";
 LEVELRANGE_STORMWINDVAULT       = "Stormwind Vault";
+-- added in patch 1.18
+LEVELRANGE_STORMWROUGHTRUINS    = "Stormwrought Ruins";
+LEVELRANGE_DRAGONMAWRETREAT     = "Dragonmaw Retreat";
 
 -- Raids
 LEVELRANGE_RAIDSTEXT            = "Raids:";
@@ -120,7 +131,7 @@ LEVELRANGE_RUINSAHNQIRAJ        = "Ruins of Ahn'Qiraj";
 LEVELRANGE_TEMPLEAHNQIRAJ       = "Temple of Ahn'Qiraj";
 LEVELRANGE_ZULGURUB             = "Zul'Gurub";
 
---Turtle WoW Raids
+-- Turtle WoW Raids
 LEVELRANGE_EMERALDSANCTUM       = "Emerald Sanctum";
 LEVELRANGE_LOWERKARAZHANHALLS   = "Lower Karazhan Halls";
 

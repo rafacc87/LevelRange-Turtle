@@ -18,7 +18,7 @@
 LEVELRANGE_NAME     = "LevelRange"
 
 -- Version Number
-LEVELRANGE_VERSION  = "2.0.4";
+LEVELRANGE_VERSION  = "2.0.5";
 
 -- Details
 Details = {
@@ -114,6 +114,10 @@ LEVELRANGE_RANGES = {
     [LEVELRANGE_TELABIM]                = {54, 60, lTYPE_CONTESTED},
     [LEVELRANGE_SCARLETENCLAVE]         = {55, 60, lTYPE_CONTESTED},
     [LEVELRANGE_HYJAL]                  = {58, 60, lTYPE_CONTESTED},
+    -- added in patch 1.18
+    [LEVELRANGE_GRIMREACHES]            = {33, 38, lTYPE_CONTESTED},
+    [LEVELRANGE_NORTHWIND]              = {28, 34, lTYPE_CONTESTED},
+    [LEVELRANGE_BALOR]                  = {29, 34, lTYPE_CONTESTED},
 };
 
 -- Fishing Level Requirements
@@ -134,12 +138,12 @@ LEVELRANGE_FISHING = {
     [LEVELRANGE_BADLANDS]           = {35},
     [LEVELRANGE_SORROWS]            = {225},
     [LEVELRANGE_HINTERLANDS]        = {300},
-    --[LEVELRANGE_SEARINGGORGE]       = {0},
-    --[LEVELRANGE_BLASTEDLANDS]       = {0},
-    --[LEVELRANGE_BURNINGSTEPPE]      = {0},
+    -- [LEVELRANGE_SEARINGGORGE]       = {0},
+    -- [LEVELRANGE_BLASTEDLANDS]       = {0},
+    -- [LEVELRANGE_BURNINGSTEPPE]      = {0},
     [LEVELRANGE_WESTERNPLAGUE]      = {300},
-    --[LEVELRANGE_EASTERNPLAGUE]      = {0},
-    --[LEVELRANGE_DEADWINDPASS]       = {0},
+    -- [LEVELRANGE_EASTERNPLAGUE]      = {0},
+    -- [LEVELRANGE_DEADWINDPASS]       = {0},
 
     [LEVELRANGE_DUROTAR]            = {25},
     [LEVELRANGE_MULGORE]            = {25},
@@ -155,18 +159,23 @@ LEVELRANGE_FISHING = {
     [LEVELRANGE_AZSHARA]            = {300},
     [LEVELRANGE_FELWOOD]            = {300},
     [LEVELRANGE_UNGOROCRATER]       = {300},
-    --[LEVELRANGE_SILITHUS]           = {0},
-    --[LEVELRANGE_WINTERSPRING]       = {0},
+    -- [LEVELRANGE_SILITHUS]           = {0},
+    -- [LEVELRANGE_WINTERSPRING]       = {0},
 
     [LEVELRANGE_MOONGLADE]          = {300},
     [LEVELRANGE_TELDRASSIL]         = {25},
 
-    --Turtle WoW Zones
-    --[LEVELRANGE_GILNEAS]            = {0},
-    --[LEVELRANGE_GILLIJIM]           = {0},
-    --[LEVELRANGE_LAPIDIS]            = {0},
-    --[LEVELRANGE_TELABIM]            = {0},
-    --[LEVELRANGE_HYJAL]              = {0},
+    -- Turtle WoW Zones
+    -- [LEVELRANGE_GILNEAS]            = {0},
+    -- [LEVELRANGE_GILLIJIM]           = {0},
+    -- [LEVELRANGE_LAPIDIS]            = {0},
+    -- [LEVELRANGE_TELABIM]            = {0},
+    -- [LEVELRANGE_HYJAL]              = {0},
+
+    -- added in patch 1.18 - TODO as of yet unknown, to be verified after patch release
+    -- [LEVELRANGE_GRIMREACHES]        = {0},
+    -- [LEVELRANGE_NORTHWIND]          = {0},
+    -- [LEVELRANGE_BALOR]              = {0},
 };
 
 -- Instances
@@ -193,6 +202,9 @@ LEVELRANGE_INSTANCES = {
     [LEVELRANGE_DEADWINDPASS]       = {LEVELRANGE_KARAZHANCRYPT, " (58 - 60)"},
     [LEVELRANGE_ELWYNN]             = {LEVELRANGE_STOCKADES, " (24-32)", LEVELRANGE_STORMWINDVAULT, " (60+)"},
     [LEVELRANGE_TANARIS]            = {LEVELRANGE_ZULFARRAK, " (44-54)", LEVELRANGE_COTBLACKMORASS, " (60+)"},
+    -- added in patch 1.18
+    [LEVELRANGE_BALOR]              = {LEVELRANGE_STORMWROUGHTRUINS, " (35-41)"},
+    [LEVELRANGE_GRIMREACHES]        = {LEVELRANGE_DRAGONMAWRETREAT, " (27-33)"},
 };
 
 -- Raids
@@ -337,7 +349,7 @@ local function lUpdateTooltip(zoneName)
     end
 
     -- This stuff seems to get reset each time
-    --LevelRangeTooltip:SetBackdropColor(0, 0, 0, 0.8);
+    -- LevelRangeTooltip:SetBackdropColor(0, 0, 0, 0.8);
     LevelRangeTooltip:SetBackdropBorderColor(1, 1, 1, 1);
     LevelRangeTooltip:ClearAllPoints();
     LevelRangeTooltip:SetPoint("BOTTOMLEFT", "WorldMapDetailFrame", "BOTTOMLEFT", 0, 0);
