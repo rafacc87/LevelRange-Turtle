@@ -713,11 +713,6 @@ function LevelRange_OnLoad()
     SLASH_LEVELRANGE1 = "/" .. LEVELRANGE_SLASH1;
     SLASH_LEVELRANGE2 = "/" .. LEVELRANGE_SLASH2;
 
-    -- Reload UI Commands
-    SlashCmdList["RELOADUI"] = ReloadUI;
-    SLASH_RELOADUI1 = "/rui";
-    SLASH_RELOADUI2 = "/reloadui";
-
     -- LevelRange is loaded
     printMSG(LEVELRANGE_LOADEDPREFIX .. LEVELRANGE_VERSION .. LEVELRANGE_LOADEDSUFFIX)
     this:RegisterEvent("ADDON_LOADED");

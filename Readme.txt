@@ -14,7 +14,6 @@ Addon Website:  https://github.com/Spartelfant/LevelRange-Turtle
 
 Current Features:
  [*] Shows zone level ranges, diplomacy, raids and instances on World Map.
- [*] Has two slash commands for easily reloading the User Interface.
 
 
 ----------------------
@@ -23,6 +22,7 @@ Change Log
 (dev) - Update (Spartelfant)
  [*] Added MIT license and removed duplicate copyright notices from several files.
  [*] Removed myAddons support, an ancient addon manager. If anyone would like this added back in please create an issue at https://github.com/Spartelfant/LevelRange-Turtle/issues/
+ [*] Removed /rui and /reloadui slash commands, they have nothing to do with this addon's features and they didn't work anyway: The slash commands were registered, but there was no handler function.
 
 2.0.5 - Update (Spartelfant)
  [*] New zones added for patch 1.18 (Grim Reaches, Northwind, Balor).
