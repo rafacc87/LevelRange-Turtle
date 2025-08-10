@@ -22,12 +22,12 @@ Change Log
 ----------------------
 (dev) - Update (Spartelfant)
  [*] Added MIT license and removed duplicate copyright notices from several files.
- [*] Removed myAddons support, an ancient Addon manager. If anyone would like this added back in please create an issue at https://github.com/Spartelfant/LevelRange-Turtle/issues/
+ [*] Removed myAddons support, an ancient addon manager. If anyone would like this added back in please create an issue at https://github.com/Spartelfant/LevelRange-Turtle/issues/
 
 2.0.5 - Update (Spartelfant)
- [*] New zones added for patch 1.18 (Grim Reaches, Northwind, Balor)
- [*] New dungeons added for patch 1.18 (Stormwrought Ruins, Dragonmaw Retreat)
- [*] Fishing skill required for new zones not yet known, will be added some time after patch release
+ [*] New zones added for patch 1.18 (Grim Reaches, Northwind, Balor).
+ [*] New dungeons added for patch 1.18 (Stormwrought Ruins, Dragonmaw Retreat).
+ [*] Fishing skill required for new zones not yet known, will be added some time after patch release.
 
 2.0.4 - Update (Spartelfant)
  [*] Bugfix: Variables to prevent unnecessary updates were never set which was causing unnecessary updates to be performed.
