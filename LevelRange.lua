@@ -26,8 +26,7 @@ LevelRangeSettings = {
 }
 
 -- Slash Commands
-LEVELRANGE_SLASH1 = "lr"
-LEVELRANGE_SLASH2 = "levelrange"
+LEVELRANGE_SLASHCMDS = {"lr", "levelrange"}
 
 -- Level Ranges
 LEVELRANGE_RANGES = {
@@ -707,7 +706,8 @@ function LevelRange_OnEvent(event)
 
         -- Setup slash commands
         SlashCmdList["LEVELRANGE"] = LevelRange_SlashHandler;
-        SLASH_LEVELRANGE1 = "/" .. LEVELRANGE_SLASH1;
-        SLASH_LEVELRANGE2 = "/" .. LEVELRANGE_SLASH2;
+        for idx, slashcmd in pairs(LEVELRANGE_SLASHCMDS) do
+          setglobal("SLASH_LEVELRANGE" .. idx, "/" .. slashcmd)
+        end
     end
 end
