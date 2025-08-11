@@ -713,5 +713,6 @@ function LevelRange_OnEvent(event)
     if (event == "VARIABLES_LOADED") then
         -- LevelRange is loaded
         printMSG(LEVELRANGE_LOADEDPREFIX .. LEVELRANGE_VERSION .. LEVELRANGE_LOADEDSUFFIX)
+        this:UnregisterEvent("VARIABLES_LOADED");
     end
 end
