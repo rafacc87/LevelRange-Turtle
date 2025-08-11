@@ -216,10 +216,3 @@ LEVELRANGE_OPTIONS[5]           = {   -- Option 5
     option                      = "showFishing",
     tooltip                     = "Show/hide Fishing level requirement on tooltip",
 };
-
-LEVELRANGE_DEFAULT_OPTS         = {
-    ["showLevelRange"]          = true,
-    ["showInstances"]           = true,
-    ["showPvP"]                 = true,
-    ["showFishing"]             = true,
-};
