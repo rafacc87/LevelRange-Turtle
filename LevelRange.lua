@@ -696,11 +696,6 @@ function LevelRange_OnLoad()
     lLR_OldUpdate = WorldMapButton_OnUpdate;
     WorldMapButton_OnUpdate = LevelRange_WorldMapButton_OnUpdate;
 
-    -- Setup slash commands
-    SlashCmdList["LEVELRANGE"] = LevelRange_SlashHandler;
-    SLASH_LEVELRANGE1 = "/" .. LEVELRANGE_SLASH1;
-    SLASH_LEVELRANGE2 = "/" .. LEVELRANGE_SLASH2;
-
     this:RegisterEvent("VARIABLES_LOADED");
 end
 
@@ -709,5 +704,10 @@ function LevelRange_OnEvent(event)
         -- LevelRange is loaded
         printMSG(LEVELRANGE_LOADEDPREFIX .. LEVELRANGE_VERSION .. LEVELRANGE_LOADEDSUFFIX)
         this:UnregisterEvent("VARIABLES_LOADED");
+
+        -- Setup slash commands
+        SlashCmdList["LEVELRANGE"] = LevelRange_SlashHandler;
+        SLASH_LEVELRANGE1 = "/" .. LEVELRANGE_SLASH1;
+        SLASH_LEVELRANGE2 = "/" .. LEVELRANGE_SLASH2;
     end
 end
