@@ -706,24 +706,12 @@ function LevelRange_OnLoad()
     SLASH_LEVELRANGE1 = "/" .. LEVELRANGE_SLASH1;
     SLASH_LEVELRANGE2 = "/" .. LEVELRANGE_SLASH2;
 
-    -- LevelRange is loaded
-    printMSG(LEVELRANGE_LOADEDPREFIX .. LEVELRANGE_VERSION .. LEVELRANGE_LOADEDSUFFIX)
     this:RegisterEvent("VARIABLES_LOADED");
-end
-
-function LevelRange_Initialize()
-    -- Make sure LevelRangeSettings is ready
-    if (not LevelRangeSettings) then
-        LevelRangeSettings = { };
-    end
-
-    if (not LevelRangeSettings) then
-        LevelRangeSettings = { };
-    end
 end
 
 function LevelRange_OnEvent(event)
     if (event == "VARIABLES_LOADED") then
-        LevelRange_Initialize();
+        -- LevelRange is loaded
+        printMSG(LEVELRANGE_LOADEDPREFIX .. LEVELRANGE_VERSION .. LEVELRANGE_LOADEDSUFFIX)
     end
 end
