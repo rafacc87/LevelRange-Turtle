@@ -17,14 +17,13 @@ playerName = UnitName("player");
 realmName  = GetRealmName();
 
 -- Default Variables
-LevelRangeSettings              = {};
-DEFAULT_LEVELRANGE_SHOW         = true;
-DEFAULT_LEVELRANGE_SHOWINSTANCE = true;
-DEFAULT_LEVELRANGE_SHOWRAIDS    = true;
-DEFAULT_LEVELRANGE_SHOWPVP      = true;
-
--- Realm|PlayerName
-LEVELRANGE_REALMPLAYERNAME = realmName .. "|" .. playerName
+LevelRangeSettings = {
+  ["showLevelRange"] = true,
+  ["showRaids"]      = true,
+  ["showInstances"]  = true,
+  ["showPvP"]        = true,
+  ["showFishing"]    = true,
+}
 
 -- Slash Commands
 LEVELRANGE_SLASH1 = "lr"
@@ -229,7 +228,7 @@ LEVELRANGE_COLORS = {
 local function lUpdateTooltip(zoneName)
 
     -- Check Toggle
-    if (LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showLevelRange == false) then
+    if (LevelRangeSettings.showLevelRange == false) then
         LevelRangeTooltip:Hide();
         return;
     end
@@ -288,28 +287,28 @@ local function lUpdateTooltip(zoneName)
     end
 
     -- Show fishing level requirement if desired
-    if (LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showFishing == true) then
+    if (LevelRangeSettings.showFishing == true) then
         if flevel then
             LevelRangeTooltip:AddLine(flevel, levelscol.r, levelscol.g, levelscol.b);
         end
     end
 
     -- Show diplomacy if known and if wanted
-    if (LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showPvP == true) then
+    if (LevelRangeSettings.showPvP == true) then
         if actualside then
             LevelRangeTooltip:AddLine(actualside, title.r, title.g, title.b);
         end
     end
 
     -- Add instance info if wanted
-    if (LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showInstances == true) then
+    if (LevelRangeSettings.showInstances == true) then
         if (LEVELRANGE_INSTANCES[zoneName]) then
             LevelRangeTooltip:AddLine(" ");
             LevelRangeTooltip:AddLine(LEVELRANGE_INSTANCESTEXT);
             getInstanceLevels(zoneName, LevelRangeTooltip);
         end
     end
-    if (LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showRaids == true) then
+    if (LevelRangeSettings.showRaids == true) then
         if (LEVELRANGE_RAIDS[zoneName]) then
             LevelRangeTooltip:AddLine(" ");
             LevelRangeTooltip:AddLine(LEVELRANGE_RAIDSTEXT);
@@ -461,51 +460,51 @@ end
 --------------------------------------------------------------------------------------------------
 
 function toggleLevelRange()
-    if (LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showLevelRange == false) then
-       LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showLevelRange = true;
+    if (LevelRangeSettings.showLevelRange == false) then
+       LevelRangeSettings.showLevelRange = true;
        printOPTION(LEVELRANGE_TOGGLESHOW, LEVELRANGE_ENABLED, LEVELRANGE_COLORS.ON.r, LEVELRANGE_COLORS.ON.g, LEVELRANGE_COLORS.ON.b);
     else
-       LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showLevelRange = false;
+       LevelRangeSettings.showLevelRange = false;
        printOPTION(LEVELRANGE_TOGGLESHOW, LEVELRANGE_DISABLED, LEVELRANGE_COLORS.OFF.r, LEVELRANGE_COLORS.OFF.g, LEVELRANGE_COLORS.OFF.b);
     end
 end
 
 function toggleInstances()
-    if (LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showInstances == false) then
-       LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showInstances = true;
+    if (LevelRangeSettings.showInstances == false) then
+       LevelRangeSettings.showInstances = true;
        printOPTION(LEVELRANGE_TOGGLEINSTANCES, LEVELRANGE_ON, LEVELRANGE_COLORS.ON.r, LEVELRANGE_COLORS.ON.g, LEVELRANGE_COLORS.ON.b);
     else
-       LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showInstances = false;
+       LevelRangeSettings.showInstances = false;
        printOPTION(LEVELRANGE_TOGGLEINSTANCES, LEVELRANGE_OFF, LEVELRANGE_COLORS.OFF.r, LEVELRANGE_COLORS.OFF.g, LEVELRANGE_COLORS.OFF.b);
     end
 end
 
 function toggleRaids()
-    if (LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showRaids == false) then
-       LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showRaids = true;
+    if (LevelRangeSettings.showRaids == false) then
+       LevelRangeSettings.showRaids = true;
        printOPTION(LEVELRANGE_TOGGLERAIDS, LEVELRANGE_ON, LEVELRANGE_COLORS.ON.r, LEVELRANGE_COLORS.ON.g, LEVELRANGE_COLORS.ON.b);
     else
-       LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showRaids = false;
+       LevelRangeSettings.showRaids = false;
        printOPTION(LEVELRANGE_TOGGLERAIDS, LEVELRANGE_OFF, LEVELRANGE_COLORS.OFF.r, LEVELRANGE_COLORS.OFF.g, LEVELRANGE_COLORS.OFF.b);
     end
 end
 
 function togglePvP()
-    if (LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showPvP == false) then
-       LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showPvP = true;
+    if (LevelRangeSettings.showPvP == false) then
+       LevelRangeSettings.showPvP = true;
        printOPTION(LEVELRANGE_TOGGLEPVP, LEVELRANGE_ON, LEVELRANGE_COLORS.ON.r, LEVELRANGE_COLORS.ON.g, LEVELRANGE_COLORS.ON.b);
     else
-       LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showPvP = false;
+       LevelRangeSettings.showPvP = false;
        printOPTION(LEVELRANGE_TOGGLEPVP, LEVELRANGE_OFF, LEVELRANGE_COLORS.OFF.r, LEVELRANGE_COLORS.OFF.g, LEVELRANGE_COLORS.OFF.b);
     end
 end
 
 function toggleFishing()
-    if (LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showFishing == false) then
-       LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showFishing = true;
+    if (LevelRangeSettings.showFishing == false) then
+       LevelRangeSettings.showFishing = true;
        printOPTION(LEVELRANGE_TOGGLEFISHING, LEVELRANGE_ON, LEVELRANGE_COLORS.ON.r, LEVELRANGE_COLORS.ON.g, LEVELRANGE_COLORS.ON.b);
     else
-       LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showFishing = false;
+       LevelRangeSettings.showFishing = false;
        printOPTION(LEVELRANGE_TOGGLEFISHING, LEVELRANGE_OFF, LEVELRANGE_COLORS.OFF.r, LEVELRANGE_COLORS.OFF.g, LEVELRANGE_COLORS.OFF.b);
     end
 end
@@ -557,7 +556,7 @@ function LevelRangeOptionsFrame_OnShow()
         local name = base .. "Opt" .. optid;
         local button = getglobal(name);
         local label = getglobal(name .. "Text");
-        OptionsFrame_EnableCheckBox(button, 1, LevelRange.Opts[option.option]);
+        OptionsFrame_EnableCheckBox(button, 1, LevelRangeSettings[option.option]);
 
         -- Simple stuff
         label:SetText(option.label);
@@ -571,9 +570,9 @@ function LevelRangeOptionsFrame_OnShow()
         for _, child in option.children or {} do
             local other = getglobal(base .. "Opt" .. child);
             if other then
-                if LevelRange.Opts[option.option] then
+                if LevelRangeSettings[option.option] then
                     OptionsFrame_EnableCheckBox(other, 1,
-                        LevelRange.Opts[LEVELRANGE_OPTIONS[child].option]);
+                        LevelRangeSettings[LEVELRANGE_OPTIONS[child].option]);
                 else
                     OptionsFrame_DisableCheckBox(other);
                 end
@@ -604,18 +603,18 @@ function LevelRangeOptionsCheckButton_OnClick()
     end
 
     if (this:GetChecked()) then
-        LevelRange.Opts[this.option] = true;
+        LevelRangeSettings[this.option] = true;
     else
-        LevelRange.Opts[this.option] = false;
+        LevelRangeSettings[this.option] = false;
     end
 
     local base = "LevelRangeOptionsFrame";
     for _, child in this.children do
         local other = getglobal(base .. "Opt" .. child);
         if other then
-            if LevelRange.Opts[this.option] then
+            if LevelRangeSettings[this.option] then
                 OptionsFrame_EnableCheckBox(other, 1,
-                    LevelRange.Opts[LEVELRANGE_OPTIONS[child].option]);
+                    LevelRangeSettings[LEVELRANGE_OPTIONS[child].option]);
             else
                 OptionsFrame_DisableCheckBox(other);
             end
@@ -625,69 +624,69 @@ end
 
 -- Load Settings
 function loadSettings()
-   if (LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showLevelRange == true) then
+   if (LevelRangeSettings.showLevelRange == true) then
         local optionButton = getglobal("LevelRangeOptionsFrame" .. "Opt1");
 
         optionButton:SetChecked(true);
-        LevelRange.Opts["showLevelRange"] = true;
+        LevelRangeSettings["showLevelRange"] = true;
 
-    elseif (LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showLevelRange == false) then
+    elseif (LevelRangeSettings.showLevelRange == false) then
         local optionButton = getglobal("LevelRangeOptionsFrame" .. "Opt1");
 
         optionButton:SetChecked(false);
-        LevelRange.Opts["showLevelRange"] = false;
+        LevelRangeSettings["showLevelRange"] = false;
     end
 
-    if (LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showInstances == true) then
+    if (LevelRangeSettings.showInstances == true) then
         local optionButton = getglobal("LevelRangeOptionsFrame" .. "Opt2");
 
         optionButton:SetChecked(true);
-        LevelRange.Opts["showInstances"] = true;
+        LevelRangeSettings["showInstances"] = true;
 
-    elseif (LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showInstances == false) then
+    elseif (LevelRangeSettings.showInstances == false) then
         local optionButton = getglobal("LevelRangeOptionsFrame" .. "Opt2");
 
         optionButton:SetChecked(false);
-        LevelRange.Opts["showInstances"] = false;
+        LevelRangeSettings["showInstances"] = false;
     end
 
-    if (LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showRaids == true) then
+    if (LevelRangeSettings.showRaids == true) then
         local optionButton = getglobal("LevelRangeOptionsFrame" .. "Opt3");
 
         optionButton:SetChecked(true);
-        LevelRange.Opts["showRaids"] = true;
+        LevelRangeSettings["showRaids"] = true;
 
-    elseif (LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showRaids == false) then
+    elseif (LevelRangeSettings.showRaids == false) then
         local optionButton = getglobal("LevelRangeOptionsFrame" .. "Opt3");
 
         optionButton:SetChecked(false);
-        LevelRange.Opts["showRaids"] = false;
+        LevelRangeSettings["showRaids"] = false;
     end
 
-    if (LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showPvP == true) then
+    if (LevelRangeSettings.showPvP == true) then
         local optionButton = getglobal("LevelRangeOptionsFrame" .. "Opt4");
 
         optionButton:SetChecked(true);
-        LevelRange.Opts["showPvP"] = true;
+        LevelRangeSettings["showPvP"] = true;
 
-    elseif (LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showPvP == false) then
+    elseif (LevelRangeSettings.showPvP == false) then
         local optionButton = getglobal("LevelRangeOptionsFrame" .. "Opt4");
 
         optionButton:SetChecked(false);
-        LevelRange.Opts["showPvP"] = false;
+        LevelRangeSettings["showPvP"] = false;
     end
 
-    if (LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showFishing == true) then
+    if (LevelRangeSettings.showFishing == true) then
         local optionButton = getglobal("LevelRangeOptionsFrame" .. "Opt5");
 
         optionButton:SetChecked(true);
-        LevelRange.Opts["showFishing"] = true;
+        LevelRangeSettings["showFishing"] = true;
 
-    elseif (LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showFishing == false) then
+    elseif (LevelRangeSettings.showFishing == false) then
         local optionButton = getglobal("LevelRangeOptionsFrame" .. "Opt5");
 
         optionButton:SetChecked(false);
-        LevelRange.Opts["showFishing"] = false;
+        LevelRangeSettings["showFishing"] = false;
     end
 
 end
@@ -709,9 +708,7 @@ function LevelRange_OnLoad()
 
     -- LevelRange is loaded
     printMSG(LEVELRANGE_LOADEDPREFIX .. LEVELRANGE_VERSION .. LEVELRANGE_LOADEDSUFFIX)
-    this:RegisterEvent("ADDON_LOADED");
     this:RegisterEvent("VARIABLES_LOADED");
-    this:RegisterEvent("PLAYER_ENTERING_WORLD");
 end
 
 function LevelRange_Initialize()
@@ -720,36 +717,9 @@ function LevelRange_Initialize()
         LevelRangeSettings = { };
     end
 
-    if (not LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME]) then
-        LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME] = { };
+    if (not LevelRangeSettings) then
+        LevelRangeSettings = { };
     end
-
-
-    -- LevelRange Toggle
-    if (LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showLevelRange == nil) then
-        LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showLevelRange = DEFAULT_LEVELRANGE_SHOW;
-    end
-
-    -- Instances Toggle
-    if (LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showInstances == nil) then
-        LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showInstances = DEFAULT_LEVELRANGE_SHOWINSTANCE;
-    end
-
-    -- Raids Toggle
-    if (LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showRaids == nil) then
-        LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showRaids = DEFAULT_LEVELRANGE_SHOWRAIDS;
-    end
-
-    -- PvP Toggle
-    if (LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showPvP == nil) then
-        LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showPvP = DEFAULT_LEVELRANGE_SHOWPVP;
-    end
-
-    -- fishing Toggle
-    if (LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showFishing == nil) then
-        LevelRangeSettings[LEVELRANGE_REALMPLAYERNAME].showFishing = DEFAULT_LEVELRANGE_SHOWFISHING;
-    end
-
 end
 
 function LevelRange_OnEvent(event)
