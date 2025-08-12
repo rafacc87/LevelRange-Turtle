@@ -18,55 +18,55 @@ if (GetLocale() == "esES") then
   
   -- Zones
   LEVELRANGE_1KNEEDLES            = "Las Mil Agujas";
-  LEVELRANGE_ALTERAC              = "Alterac Mountains";
-  LEVELRANGE_ARATHI               = "Arathi Highlands";
+  LEVELRANGE_ALTERAC              = "Montañas de Alterac";
+  LEVELRANGE_ARATHI               = "Tierras Altas de Arathi";
   LEVELRANGE_ASHENVALE            = "Vallefresno";
   LEVELRANGE_AZSHARA              = "Azshara";
-  LEVELRANGE_BADLANDS             = "Badlands";
+  LEVELRANGE_BADLANDS             = "Tierras Inhóspitas";
   LEVELRANGE_BARRENS              = "Los Baldíos";
-  LEVELRANGE_BLASTEDLANDS         = "Blasted Lands";
-  LEVELRANGE_BURNINGSTEPPE        = "Burning Steppes";
+  LEVELRANGE_BLASTEDLANDS         = "Tierras Devastadas";
+  LEVELRANGE_BURNINGSTEPPE        = "Las Estepas Ardientes";
   LEVELRANGE_DARKSHORE            = "Costa Oscura";
-  LEVELRANGE_DEADWINDPASS         = "Deadwind Pass";
+  LEVELRANGE_DEADWINDPASS         = "Paso de la Muerte";
   LEVELRANGE_DESOLACE             = "Desolace";
   LEVELRANGE_DUNMOROGH            = "Dun Morogh";
   LEVELRANGE_DUROTAR              = "Durotar";
-  LEVELRANGE_DUSKWOOD             = "Duskwood";
+  LEVELRANGE_DUSKWOOD             = "Bosque del Ocaso";
   LEVELRANGE_DUSTWALLOW           = "Marjal Revolcafango";
-  LEVELRANGE_EASTERNPLAGUE        = "Eastern Plaguelands";
-  LEVELRANGE_ELWYNN               = "Elwynn Forest";
+  LEVELRANGE_EASTERNPLAGUE        = "Tierras de la Peste del Este";
+  LEVELRANGE_ELWYNN               = "Bosque de Elwynn";
   LEVELRANGE_FELWOOD              = "Frondavil";
   LEVELRANGE_FERALAS              = "Feralas";
-  LEVELRANGE_HILLSBRAD            = "Hillsbrad Foothills";
-  LEVELRANGE_HINTERLANDS          = "The Hinterlands";
+  LEVELRANGE_HILLSBRAD            = "Laderas de Trabalomas";
+  LEVELRANGE_HINTERLANDS          = "Tierras del Interior";
   LEVELRANGE_LOCHMODAN            = "Loch Modan";
   LEVELRANGE_MOONGLADE            = "Claro de la Luna";
   LEVELRANGE_MULGORE              = "Mulgore";
-  LEVELRANGE_REDRIDGE             = "Redridge Mountains";
-  LEVELRANGE_SEARINGGORGE         = "Searing Gorge";
+  LEVELRANGE_REDRIDGE             = "Montañas Crestagrana";
+  LEVELRANGE_SEARINGGORGE         = "La Garganta de Fuego";
   LEVELRANGE_SILITHUS             = "Silithus";
-  LEVELRANGE_SILVERPINE           = "Silverpine Forest";
-  LEVELRANGE_SORROWS              = "Swamp of Sorrows";
+  LEVELRANGE_SILVERPINE           = "Bosque de Argénteos";
+  LEVELRANGE_SORROWS              = "Pantano de las Penas";
   LEVELRANGE_STONETALON           = "Montañas de Colina Roca";
-  LEVELRANGE_STRANGLETHORN        = "Stranglethorn Vale";
+  LEVELRANGE_STRANGLETHORN        = "Vega de Tuercespina";
   LEVELRANGE_TANARIS              = "Tanaris";
   LEVELRANGE_TELDRASSIL           = "Teldrassil";
-  LEVELRANGE_TIRISFAL             = "Tirisfal Glades";
+  LEVELRANGE_TIRISFAL             = "Claros de Tirisfal";
   LEVELRANGE_UNGOROCRATER         = "Crater Un'Goro";
-  LEVELRANGE_WESTERNPLAGUE        = "Western Plaguelands";
-  LEVELRANGE_WESTFALL             = "Westfall";
-  LEVELRANGE_WETLANDS             = "Wetlands";
+  LEVELRANGE_WESTERNPLAGUE        = "Tierras de la Peste del Oeste";
+  LEVELRANGE_WESTFALL             = "Páramos del Poniente";
+  LEVELRANGE_WETLANDS             = "Los Humedales";
   LEVELRANGE_WINTERSPRING         = "Winterspring";
   
   -- Turtle WoW Zones
   LEVELRANGE_BLACKSTONEISLAND     = "Isla Piedra Negra";
-  LEVELRANGE_GILLIJIM             = "Gillijim's Isle";
+  LEVELRANGE_GILLIJIM             = "Isla de Gillijim";
   LEVELRANGE_GILNEAS              = "Gilneas";
   LEVELRANGE_HYJAL                = "Hyjal";
-  LEVELRANGE_LAPIDIS              = "Lapidis Isle";
-  LEVELRANGE_SCARLETENCLAVE       = "Scarlet Enclave";
+  LEVELRANGE_LAPIDIS              = "Isla Lapidis";
+  LEVELRANGE_SCARLETENCLAVE       = "Enclave Escarlata";
   LEVELRANGE_TELABIM              = "Tel'Abim";
-  LEVELRANGE_THALASSIANHIGHLANDS  = "Thalassian Highlands";
+  LEVELRANGE_THALASSIANHIGHLANDS  = "Tierras Altas Thalassianas";
   -- added in patch 1.18
   LEVELRANGE_GRIMREACHES          = "Grim Reaches";
   LEVELRANGE_NORTHWIND            = "Northwind";
@@ -74,11 +74,11 @@ if (GetLocale() == "esES") then
   
   -- Sub-zones
   LEVELRANGE_DARNASSUS            = "Darnassus";
-  LEVELRANGE_IRONFORGE            = "Ironforge";
+  LEVELRANGE_IRONFORGE            = "Forjaz";
   LEVELRANGE_ORGRIMMAR            = "Orgrimmar";
-  LEVELRANGE_STORMWIND            = "Stormwind City";
+  LEVELRANGE_STORMWIND            = "Ciudad de Ventormenta";
   LEVELRANGE_THUNDERBLUFF         = "Cima del Trueno";
-  LEVELRANGE_UNDERCITY            = "Undercity";
+  LEVELRANGE_UNDERCITY            = "Entrañas";
   
   -- Turtle WoW Sub-zones
   LEVELRANGE_ALAHTHALAS           = "Alah'Thalas";
