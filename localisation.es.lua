@@ -20,46 +20,46 @@ if (GetLocale() == "esES") then
   LEVELRANGE_1KNEEDLES            = "Las Mil Agujas";
   LEVELRANGE_ALTERAC              = "Alterac Mountains";
   LEVELRANGE_ARATHI               = "Arathi Highlands";
-  LEVELRANGE_ASHENVALE            = "Ashenvale";
+  LEVELRANGE_ASHENVALE            = "Vallefresno";
   LEVELRANGE_AZSHARA              = "Azshara";
   LEVELRANGE_BADLANDS             = "Badlands";
-  LEVELRANGE_BARRENS              = "The Barrens";
+  LEVELRANGE_BARRENS              = "Los Baldíos";
   LEVELRANGE_BLASTEDLANDS         = "Blasted Lands";
   LEVELRANGE_BURNINGSTEPPE        = "Burning Steppes";
-  LEVELRANGE_DARKSHORE            = "Darkshore";
+  LEVELRANGE_DARKSHORE            = "Costa Oscura";
   LEVELRANGE_DEADWINDPASS         = "Deadwind Pass";
   LEVELRANGE_DESOLACE             = "Desolace";
   LEVELRANGE_DUNMOROGH            = "Dun Morogh";
   LEVELRANGE_DUROTAR              = "Durotar";
   LEVELRANGE_DUSKWOOD             = "Duskwood";
-  LEVELRANGE_DUSTWALLOW           = "Dustwallow Marsh";
+  LEVELRANGE_DUSTWALLOW           = "Marjal Revolcafango";
   LEVELRANGE_EASTERNPLAGUE        = "Eastern Plaguelands";
   LEVELRANGE_ELWYNN               = "Elwynn Forest";
-  LEVELRANGE_FELWOOD              = "Felwood";
+  LEVELRANGE_FELWOOD              = "Frondavil";
   LEVELRANGE_FERALAS              = "Feralas";
   LEVELRANGE_HILLSBRAD            = "Hillsbrad Foothills";
   LEVELRANGE_HINTERLANDS          = "The Hinterlands";
   LEVELRANGE_LOCHMODAN            = "Loch Modan";
-  LEVELRANGE_MOONGLADE            = "Moonglade";
+  LEVELRANGE_MOONGLADE            = "Claro de la Luna";
   LEVELRANGE_MULGORE              = "Mulgore";
   LEVELRANGE_REDRIDGE             = "Redridge Mountains";
   LEVELRANGE_SEARINGGORGE         = "Searing Gorge";
   LEVELRANGE_SILITHUS             = "Silithus";
   LEVELRANGE_SILVERPINE           = "Silverpine Forest";
   LEVELRANGE_SORROWS              = "Swamp of Sorrows";
-  LEVELRANGE_STONETALON           = "Stonetalon Mountains";
+  LEVELRANGE_STONETALON           = "Montañas de Colina Roca";
   LEVELRANGE_STRANGLETHORN        = "Stranglethorn Vale";
   LEVELRANGE_TANARIS              = "Tanaris";
   LEVELRANGE_TELDRASSIL           = "Teldrassil";
   LEVELRANGE_TIRISFAL             = "Tirisfal Glades";
-  LEVELRANGE_UNGOROCRATER         = "Un'Goro Crater";
+  LEVELRANGE_UNGOROCRATER         = "Crater Un'Goro";
   LEVELRANGE_WESTERNPLAGUE        = "Western Plaguelands";
   LEVELRANGE_WESTFALL             = "Westfall";
   LEVELRANGE_WETLANDS             = "Wetlands";
   LEVELRANGE_WINTERSPRING         = "Winterspring";
   
   -- Turtle WoW Zones
-  LEVELRANGE_BLACKSTONEISLAND     = "Blackstone Island";
+  LEVELRANGE_BLACKSTONEISLAND     = "Isla Piedra Negra";
   LEVELRANGE_GILLIJIM             = "Gillijim's Isle";
   LEVELRANGE_GILNEAS              = "Gilneas";
   LEVELRANGE_HYJAL                = "Hyjal";
@@ -77,7 +77,7 @@ if (GetLocale() == "esES") then
   LEVELRANGE_IRONFORGE            = "Ironforge";
   LEVELRANGE_ORGRIMMAR            = "Orgrimmar";
   LEVELRANGE_STORMWIND            = "Stormwind City";
-  LEVELRANGE_THUNDERBLUFF         = "Thunder Bluff";
+  LEVELRANGE_THUNDERBLUFF         = "Cima del Trueno";
   LEVELRANGE_UNDERCITY            = "Undercity";
   
   -- Turtle WoW Sub-zones
@@ -90,7 +90,7 @@ if (GetLocale() == "esES") then
   LEVELRANGE_EARTHENRING          = "Earthen Ring";
   
   -- Dungeons
-  LEVELRANGE_INSTANCESTEXT        = "Instances:";
+  LEVELRANGE_INSTANCESTEXT        = "Mazmorras:";
   
   LEVELRANGE_BLACKFATHOMDEEPS     = "Blackfathom Deeps";
   LEVELRANGE_BLACKROCKDEPTH       = "Blackrock Depths";
@@ -124,7 +124,7 @@ if (GetLocale() == "esES") then
   LEVELRANGE_DRAGONMAWRETREAT     = "Dragonmaw Retreat";
   
   -- Raids
-  LEVELRANGE_RAIDSTEXT            = "Raids:";
+  LEVELRANGE_RAIDSTEXT            = "Bandas:";
   
   LEVELRANGE_NAXXRAMAS            = "Naxxramas";
   LEVELRANGE_ONYXIASLAIR          = "Onyxia's Lair";
@@ -193,30 +193,30 @@ if (GetLocale() == "esES") then
 
   LEVELRANGE_OPTIONS              = {};
   LEVELRANGE_OPTIONS[1]           = {   -- Option 1
-      label                       = "Enable LevelRange",
+      label                       = "Habilitado LevelRange",
       option                      = "showLevelRange",
-      tooltip                     = "Show/hide LevelRange tooltip",
+      tooltip                     = "Mostrar/ocultar LevelRange en tooltip",
       children                    = {2, 3, 4, 5},
   };
   LEVELRANGE_OPTIONS[2]           = {   -- Option 2
-      label                       = "Show Instances",
+      label                       = "Mostrar mazmorras",
       option                      = "showInstances",
-      tooltip                     = "Show/hide instances on tooltip",
+      tooltip                     = "Mostrar/ocultar mazmorras en tooltip",
   };
   LEVELRANGE_OPTIONS[3]           = {   -- Option 3
-      label                       = "Show Raids",
+      label                       = "Mostrar bandas",
       option                      = "showRaids",
-      tooltip                     = "Show/hide raids on tooltip",
+      tooltip                     = "Mostar/ocultar bandas en tooltip",
   };
   LEVELRANGE_OPTIONS[4]           = {   -- Option 4
-      label                       = "Show PvP Diplomacy",
+      label                       = "Mostar diplomacia PvP",
       option                      = "showPvP",
-      tooltip                     = "Show/hide PvP Diplomacy on tooltip",
+      tooltip                     = "Mostar/ocultar diplomacia PvP en tooltip",
   };
   LEVELRANGE_OPTIONS[5]           = {   -- Option 5
-      label                       = "Show Fishing level requirement",
+      label                       = "Mostrar nivel de pesca requerido",
       option                      = "showFishing",
-      tooltip                     = "Show/hide Fishing level requirement on tooltip",
+      tooltip                     = "Mostrar/ocultar nivel pesca requerido en tooltip",
   };
   
   LEVELRANGE_DEFAULT_OPTS         = {
