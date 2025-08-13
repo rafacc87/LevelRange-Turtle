@@ -14,6 +14,8 @@ LEVELRANGE_DESCRIPTION          = "Shows the zone level range on the World Map";
 LEVELRANGE_ALLIANCE             = "Alliance";
 LEVELRANGE_HORDE                = "Horde";
 LEVELRANGE_CONTESTED            = "Contested";
+LEVELRANGE_FRIENDLY             = "Friendly";
+LEVELRANGE_HOSTILE              = "Hostile";
 
 -- Zones
 LEVELRANGE_1KNEEDLES            = "Thousand Needles";
