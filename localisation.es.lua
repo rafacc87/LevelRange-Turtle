@@ -15,8 +15,8 @@ if (GetLocale() == "esES") then
   LEVELRANGE_ALLIANCE             = "Alianza";
   LEVELRANGE_HORDE                = "Horda";
   LEVELRANGE_CONTESTED            = "Zona en disputa";
-  LEVELRANGE_FRIENDLY            = "Amistoso";
-  LEVELRANGE_HOSTILE            = "Hostil";
+  LEVELRANGE_FRIENDLY             = "Amistoso";
+  LEVELRANGE_HOSTILE              = "Hostil";
   
   -- Zones
   LEVELRANGE_1KNEEDLES            = "Las Mil Agujas";
