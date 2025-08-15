@@ -9,7 +9,7 @@ Details
 ----------------------
 Title: 	        LevelRange
 Interface:      11200
-Version:        2.0.5
+Version:        2.0.6
 
 Author:         Bull3t, Tenyar97, rado-boy, blehz, Spartelfant.
 Addon Website:  https://github.com/Tenyar97/LevelRange-Turtle
@@ -22,6 +22,9 @@ Current Features:
 ----------------------
 Change Log
 ----------------------
+2.0.6 - Update (Spartelfant)
+ [*] Added workaround for game bug that prevented the new Northwind zone from showing a tooltip: The game included a trailing space, so the actual zone name is 'Northwind '.
+
 2.0.5 - Update (Spartelfant)
  [*] New zones added for patch 1.18 (Grim Reaches, Northwind, Balor)
  [*] New dungeons added for patch 1.18 (Stormwrought Ruins, Dragonmaw Retreat)
