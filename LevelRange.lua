@@ -18,7 +18,7 @@
 LEVELRANGE_NAME     = "LevelRange"
 
 -- Version Number
-LEVELRANGE_VERSION  = "2.0.5";
+LEVELRANGE_VERSION  = "2.0.8";
 
 -- Details
 Details = {
@@ -204,7 +204,7 @@ LEVELRANGE_INSTANCES = {
     [LEVELRANGE_TANARIS]            = {LEVELRANGE_ZULFARRAK, " (44-54)", LEVELRANGE_COTBLACKMORASS, " (60+)"},
     -- added in patch 1.18
     [LEVELRANGE_BALOR]              = {LEVELRANGE_STORMWROUGHTRUINS, " (35-41)"},
-    [LEVELRANGE_GRIMREACHES]        = {LEVELRANGE_DRAGONMAWRETREAT, " (27-33)"},
+    [LEVELRANGE_WETLANDS]           = {LEVELRANGE_DRAGONMAWRETREAT, " (27-33)"},
 };
 
 -- Raids
@@ -381,25 +381,27 @@ local lLR_OldUpdate = function() end;
 -- Replacement function to draw all the extra goodies of LevelRange
 function LevelRange_WorldMapButton_OnUpdate(arg1)
     lLR_OldUpdate(arg1);
-    local areaName = WorldMapFrame.areaName;
+
+    local areaNameRaw = WorldMapFrame.areaName or "";
+    local _, _, areaNameTrimmed = string.find(areaNameRaw, "^%s*(.-)%s*$"); -- 2.0.7: Fixed code added in 2.0.6 to trim whitespace to deal with patch 1.18 bug for Northwind zone: In-game name contains trailing space 'Northwind '.
     local zoneNum = GetCurrentMapZone();
 
     -- Zone name equivalence map
-    if LEVELRANGE_SUBZONES[areaName] then
-        areaName = LEVELRANGE_SUBZONES[areaName];
+    if LEVELRANGE_SUBZONES[areaNameTrimmed] then
+        areaNameTrimmed = LEVELRANGE_SUBZONES[areaNameTrimmed];
     end
 
     -- Bail out if nothing has changed
-    if zoneNum == lLR_CurrentZone and areaName == lLR_CurrentArea then
+    if zoneNum == lLR_CurrentZone and areaNameRaw == lLR_CurrentArea then
         return;
     else
       lLR_CurrentZone = zoneNum;
-      lLR_CurrentArea = areaName;
+      lLR_CurrentArea = areaNameRaw;
     end
 
     -- Continent or zone map?
     if zoneNum == 0 then
-        lUpdateTooltip(areaName);
+        lUpdateTooltip(areaNameTrimmed);
     else
         lUpdateTooltip(nil);            -- hide it
     end
