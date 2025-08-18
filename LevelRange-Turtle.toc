@@ -1,6 +1,6 @@
 ## Interface: 11200
 ## Title: LevelRange [|cff3fcf26Turtle|r]
-## Version: 2.0.8
+## Version: 2.1.0
 ## Author: Bull3t, Tenyar97, rado-boy, blehz, Spartelfant.
 ## Notes: Shows the zone level range on the World Map. Now with 100% more turtles!
 ## Notes-esES: Muestra el rango de niveles de zona en el mapa mundial. ¡Ahora con un 100 % más de tortugas!

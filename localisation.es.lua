@@ -58,7 +58,7 @@ if (GetLocale() == "esES") then
   LEVELRANGE_WESTERNPLAGUE        = "Tierras de la Peste del Oeste";
   LEVELRANGE_WESTFALL             = "Páramos del Poniente";
   LEVELRANGE_WETLANDS             = "Los Humedales";
-  LEVELRANGE_WINTERSPRING         = "Winterspring";
+  LEVELRANGE_WINTERSPRING         = "Cuna del Invierno";
   
   -- Turtle WoW Zones
   LEVELRANGE_BLACKSTONEISLAND     = "Isla Piedra Negra";
@@ -70,8 +70,8 @@ if (GetLocale() == "esES") then
   LEVELRANGE_TELABIM              = "Tel'Abim";
   LEVELRANGE_THALASSIANHIGHLANDS  = "Tierras Altas Thalassianas";
   -- added in patch 1.18
-  LEVELRANGE_GRIMREACHES          = "Grim Reaches";
-  LEVELRANGE_NORTHWIND            = "Northwind";
+  LEVELRANGE_GRIMREACHES          = "Alcances Sombríos";
+  LEVELRANGE_NORTHWIND            = "Viento del Norte";
   LEVELRANGE_BALOR                = "Balor";
   
   -- Sub-zones
