@@ -23,7 +23,7 @@ Current Features:
 Change Log
 ----------------------
 2.1.0 - Update (Spartelfant)
- [*] Added Spanish translation.
+ [*] Added Spanish translation by rafacc87.
 
 2.0.8 - Update (Spartelfant)
  [*] Fixed location of Dragonmaw Retreat: I had listed it mistakenly as being in Grim Reaches, but it's located in Wetlands.
