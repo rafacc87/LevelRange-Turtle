@@ -18,7 +18,7 @@
 LEVELRANGE_NAME     = "LevelRange"
 
 -- Version Number
-LEVELRANGE_VERSION  = "2.0.8";
+LEVELRANGE_VERSION  = "2.1.0";
 
 -- Details
 Details = {
@@ -291,14 +291,14 @@ local function lUpdateTooltip(zoneName)
 
         if (side == lTYPE_CONTESTED) then
             title = LEVELRANGE_COLORS.Contested;
-            actualside = "Contested";
+            actualside = lTYPE_CONTESTED;
         else
             if (faction == side) then
                 title = LEVELRANGE_COLORS.Friendly;
-                actualside = "Friendly";
+                actualside = LEVELRANGE_FRIENDLY;
             else
                 title = LEVELRANGE_COLORS.Hostile;
-                actualside = "Hostile";
+                actualside = LEVELRANGE_HOSTILE;
             end
         end
         levels = string.format(LEVELRANGE_LEVELS, min, max);

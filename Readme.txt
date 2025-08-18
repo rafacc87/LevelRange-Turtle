@@ -9,7 +9,7 @@ Details
 ----------------------
 Title: 	        LevelRange
 Interface:      11200
-Version:        2.0.8
+Version:        2.1.0
 
 Author:         Bull3t, Tenyar97, rado-boy, blehz, Spartelfant.
 Addon Website:  https://github.com/Tenyar97/LevelRange-Turtle
@@ -22,6 +22,9 @@ Current Features:
 ----------------------
 Change Log
 ----------------------
+2.1.0 - Update (Spartelfant)
+ [*] Added Spanish translation.
+
 2.0.8 - Update (Spartelfant)
  [*] Fixed location of Dragonmaw Retreat: I had listed it mistakenly as being in Grim Reaches, but it's located in Wetlands.
 
