@@ -1,87 +1,87 @@
 --
--- LevelRange :: Translatable Strings - Spanish
+-- LevelRange :: Translatable Strings - Portuguese (Brazil)
 -- Copyright (c) 2025 Rafael Calafell (rafacc87)
 --
 --------------------------------------------------------------------------------------------------
--- Localised Strings - Spanish
+-- Localised Strings - Portuguese (Brazil)
 --------------------------------------------------------------------------------------------------
 
-if (GetLocale() == "esES") then
+if (GetLocale() == "ptBR") then
   -- LevelRange
   LEVELRANGE_NAME                 = "LevelRange";
-  LEVELRANGE_DESCRIPTION          = "Muestra el rango de nivel de la zona en el mapa del mundo";
-  
+  LEVELRANGE_DESCRIPTION          = "Mostra a faixa de nível da zona no mapa-múndi";
+
   -- Factions
-  LEVELRANGE_ALLIANCE             = "Alianza";
+  LEVELRANGE_ALLIANCE             = "Aliança";
   LEVELRANGE_HORDE                = "Horda";
-  LEVELRANGE_CONTESTED            = "Zona en disputa";
-  LEVELRANGE_FRIENDLY             = "Amistoso";
+  LEVELRANGE_CONTESTED            = "Zona contestada";
+  LEVELRANGE_FRIENDLY             = "Amigável";
   LEVELRANGE_HOSTILE              = "Hostil";
-  
+
   -- Zones
-  LEVELRANGE_1KNEEDLES            = "Las Mil Agujas";
-  LEVELRANGE_ALTERAC              = "Montañas de Alterac";
-  LEVELRANGE_ARATHI               = "Tierras Altas de Arathi";
-  LEVELRANGE_ASHENVALE            = "Vallefresno";
+  LEVELRANGE_1KNEEDLES            = "As Mil Agulhas";
+  LEVELRANGE_ALTERAC              = "Montanhas de Alterac";
+  LEVELRANGE_ARATHI               = "Planalto Arathi";
+  LEVELRANGE_ASHENVALE            = "Vale das Cinzas";
   LEVELRANGE_AZSHARA              = "Azshara";
-  LEVELRANGE_BADLANDS             = "Tierras Inhóspitas";
-  LEVELRANGE_BARRENS              = "Los Baldíos";
-  LEVELRANGE_BLASTEDLANDS         = "Tierras Devastadas";
-  LEVELRANGE_BURNINGSTEPPE        = "Las Estepas Ardientes";
-  LEVELRANGE_DARKSHORE            = "Costa Oscura";
-  LEVELRANGE_DEADWINDPASS         = "Paso de la Muerte";
-  LEVELRANGE_DESOLACE             = "Desolace";
+  LEVELRANGE_BADLANDS             = "Ermos";
+  LEVELRANGE_BARRENS              = "Os Barrens";
+  LEVELRANGE_BLASTEDLANDS         = "Terras Devastadas";
+  LEVELRANGE_BURNINGSTEPPE        = "Estepes Ardentes";
+  LEVELRANGE_DARKSHORE            = "Costa Negra";
+  LEVELRANGE_DEADWINDPASS         = "Desfiladeiro da Morte";
+  LEVELRANGE_DESOLACE             = "Desolação";
   LEVELRANGE_DUNMOROGH            = "Dun Morogh";
   LEVELRANGE_DUROTAR              = "Durotar";
-  LEVELRANGE_DUSKWOOD             = "Bosque del Ocaso";
-  LEVELRANGE_DUSTWALLOW           = "Marjal Revolcafango";
-  LEVELRANGE_EASTERNPLAGUE        = "Tierras de la Peste del Este";
-  LEVELRANGE_ELWYNN               = "Bosque de Elwynn";
-  LEVELRANGE_FELWOOD              = "Frondavil";
+  LEVELRANGE_DUSKWOOD             = "Floresta do Crepúsculo";
+  LEVELRANGE_DUSTWALLOW           = "Pântano Vadeante";
+  LEVELRANGE_EASTERNPLAGUE        = "Terras Pestilentas Orientais";
+  LEVELRANGE_ELWYNN               = "Floresta de Elwynn";
+  LEVELRANGE_FELWOOD              = "Selva Maleva";
   LEVELRANGE_FERALAS              = "Feralas";
-  LEVELRANGE_HILLSBRAD            = "Laderas de Trabalomas";
-  LEVELRANGE_HINTERLANDS          = "Tierras del Interior";
+  LEVELRANGE_HILLSBRAD            = "Contrafortes de Eira dos Montes";
+  LEVELRANGE_HINTERLANDS          = "As Terras Interiores";
   LEVELRANGE_LOCHMODAN            = "Loch Modan";
-  LEVELRANGE_MOONGLADE            = "Claro de la Luna";
+  LEVELRANGE_MOONGLADE            = "Moonglade";
   LEVELRANGE_MULGORE              = "Mulgore";
-  LEVELRANGE_REDRIDGE             = "Montañas Crestagrana";
-  LEVELRANGE_SEARINGGORGE         = "La Garganta de Fuego";
+  LEVELRANGE_REDRIDGE             = "Montanhas Redridge";
+  LEVELRANGE_SEARINGGORGE         = "Desfiladeiro Searing";
   LEVELRANGE_SILITHUS             = "Silithus";
-  LEVELRANGE_SILVERPINE           = "Bosque de Argénteos";
-  LEVELRANGE_SORROWS              = "Pantano de las Penas";
-  LEVELRANGE_STONETALON           = "Montañas de Colina Roca";
-  LEVELRANGE_STRANGLETHORN        = "Vega de Tuercespina";
+  LEVELRANGE_SILVERPINE           = "Floresta Silverpine";
+  LEVELRANGE_SORROWS              = "Pantano das Tristezas";
+  LEVELRANGE_STONETALON           = "Montanhas Stonetalon";
+  LEVELRANGE_STRANGLETHORN        = "Vale Stranglethorn";
   LEVELRANGE_TANARIS              = "Tanaris";
   LEVELRANGE_TELDRASSIL           = "Teldrassil";
-  LEVELRANGE_TIRISFAL             = "Claros de Tirisfal";
-  LEVELRANGE_UNGOROCRATER         = "Crater Un'Goro";
-  LEVELRANGE_WESTERNPLAGUE        = "Tierras de la Peste del Oeste";
-  LEVELRANGE_WESTFALL             = "Páramos del Poniente";
-  LEVELRANGE_WETLANDS             = "Los Humedales";
-  LEVELRANGE_WINTERSPRING         = "Cuna del Invierno";
-  
+  LEVELRANGE_TIRISFAL             = "Os Bosques de Tirisfal";
+  LEVELRANGE_UNGOROCRATER         = "Cratera Un'Goro";
+  LEVELRANGE_WESTERNPLAGUE        = "Plaguelands Ocidentais";
+  LEVELRANGE_WESTFALL             = "Westfall";
+  LEVELRANGE_WETLANDS             = "Pântanos";
+  LEVELRANGE_WINTERSPRING         = "Hibérnia";
+
   -- Turtle WoW Zones
-  LEVELRANGE_BLACKSTONEISLAND     = "Isla Piedra Negra";
-  LEVELRANGE_GILLIJIM             = "Isla de Gillijim";
+  LEVELRANGE_BLACKSTONEISLAND     = "Ilha Negrito";
+  LEVELRANGE_GILLIJIM             = "Ilha de Gillijim";
   LEVELRANGE_GILNEAS              = "Gilneas";
   LEVELRANGE_HYJAL                = "Hyjal";
   LEVELRANGE_LAPIDIS              = "Isla Lapidis";
-  LEVELRANGE_SCARLETENCLAVE       = "Enclave Escarlata";
+  LEVELRANGE_SCARLETENCLAVE       = "Enclave Scarlet";
   LEVELRANGE_TELABIM              = "Tel'Abim";
-  LEVELRANGE_THALASSIANHIGHLANDS  = "Tierras Altas Thalassianas";
+  LEVELRANGE_THALASSIANHIGHLANDS  = "Terras Altas Thalassianas";
   -- added in patch 1.18
-  LEVELRANGE_GRIMREACHES          = "Alcances Sombríos";
-  LEVELRANGE_NORTHWIND            = "Viento del Norte";
+  LEVELRANGE_GRIMREACHES          = "Recônditos Sombrios";
+  LEVELRANGE_NORTHWIND            = "Vento Norte";
   LEVELRANGE_BALOR                = "Balor";
-  
+
   -- Sub-zones
   LEVELRANGE_DARNASSUS            = "Darnassus";
-  LEVELRANGE_IRONFORGE            = "Forjaz";
-  LEVELRANGE_ORGRIMMAR            = "Orgrimmar";
-  LEVELRANGE_STORMWIND            = "Ciudad de Ventormenta";
-  LEVELRANGE_THUNDERBLUFF         = "Cima del Trueno";
-  LEVELRANGE_UNDERCITY            = "Entrañas";
-  
+  LEVELRANGE_IRONFORGE            = "Altaforja";
+  LEVELRANGE_ORGRIMMAR            = "Orgrimmmar";
+  LEVELRANGE_STORMWIND            = "Cidade Stormwind";
+  LEVELRANGE_THUNDERBLUFF         = "Thunder Bluff";
+  LEVELRANGE_UNDERCITY            = "Cidade Subterrânea";
+
   -- Turtle WoW Sub-zones
   LEVELRANGE_ALAHTHALAS           = "Alah'Thalas";
   LEVELRANGE_RUINSOFZULRASAZ      = "Ruins of Zul'rasaz";
@@ -90,10 +90,10 @@ if (GetLocale() == "esES") then
   LEVELRANGE_SLICKWICKOILRIG      = "Slickwick Oil Rig";
   LEVELRANGE_RUGFORDSMOUNTAINREST = "Rugford's Mountain Rest";
   LEVELRANGE_EARTHENRING          = "Earthen Ring";
-  
+
   -- Dungeons
-  LEVELRANGE_INSTANCESTEXT        = "Mazmorras:";
-  
+  LEVELRANGE_INSTANCESTEXT        = "Masmorras:";
+
   LEVELRANGE_BLACKFATHOMDEEPS     = "Blackfathom Deeps";
   LEVELRANGE_BLACKROCKDEPTH       = "Blackrock Depths";
   LEVELRANGE_BLACKROCKSPIRE       = "Blackrock Spire";
@@ -113,7 +113,7 @@ if (GetLocale() == "esES") then
   LEVELRANGE_ULDAMAN              = "Uldaman";
   LEVELRANGE_WAILINGCAVERNS       = "Wailing Caverns";
   LEVELRANGE_ZULFARRAK            = "Zul'Farrak";
-  
+
   -- Turtle WoW Dungeons
   LEVELRANGE_COTBLACKMORASS       = "Caverns of Time: The Black Morass";
   LEVELRANGE_CRESCENTGROVE        = "The Crescent Grove";
@@ -124,28 +124,28 @@ if (GetLocale() == "esES") then
   -- added in patch 1.18
   LEVELRANGE_STORMWROUGHTRUINS    = "Stormwrought Ruins";
   LEVELRANGE_DRAGONMAWRETREAT     = "Dragonmaw Retreat";
-  
+
   -- Raids
-  LEVELRANGE_RAIDSTEXT            = "Bandas:";
-  
+  LEVELRANGE_RAIDSTEXT            = "Raides:";
+
   LEVELRANGE_NAXXRAMAS            = "Naxxramas";
   LEVELRANGE_ONYXIASLAIR          = "Onyxia's Lair";
   LEVELRANGE_RUINSAHNQIRAJ        = "Ruins of Ahn'Qiraj";
   LEVELRANGE_TEMPLEAHNQIRAJ       = "Temple of Ahn'Qiraj";
   LEVELRANGE_ZULGURUB             = "Zul'Gurub";
-  
+
   -- Turtle WoW Raids
   LEVELRANGE_EMERALDSANCTUM       = "Emerald Sanctum";
   LEVELRANGE_LOWERKARAZHANHALLS   = "Lower Karazhan Halls";
-  
+
   -- General Strings
-  LEVELRANGE_LEVELS               = "Niveles %d - %d";
-  LEVELRANGE_FLEVEL               = "Nivel de pesca %d";
-  
+  LEVELRANGE_LEVELS               = "Níveis %d - %d";
+  LEVELRANGE_FLEVEL               = "Nível de pesca %d";
+
   -- Message Strings
-  LEVELRANGE_LOADEDPREFIX         = "Versión de LevelRange "
+  LEVELRANGE_LOADEDPREFIX         = "Versão do LevelRange "
   LEVELRANGE_LOADEDSUFFIX         = " cargada."
-  
+
   -- Instances List
   LEVELRANGE_INSTANCES1           = LEVELRANGE_DEADMINES        .. " (17, 26)"
   LEVELRANGE_INSTANCES2           = LEVELRANGE_WAILINGCAVERNS   .. " (17, 24)"
@@ -166,61 +166,61 @@ if (GetLocale() == "esES") then
   LEVELRANGE_INSTANCES17          = LEVELRANGE_RAGEFIRECHASM    .. " (13, 18)"
   LEVELRANGE_INSTANCES18          = LEVELRANGE_STOCKADES        .. " (24, 32)"
   LEVELRANGE_INSTANCES19          = LEVELRANGE_ZULFARRAK        .. " (44, 54)"
-  
+
   -- Help Strings
-  LEVELRANGE_HELP0                = "Usa los siguientes comandos para cambiar las opciones de LevelRange."
-  LEVELRANGE_HELP1                = "/lr >> Abre el panel de opciones de LevelRange."
-  LEVELRANGE_HELP2                = "/lr toggle >> Alterna la visualización del tooltip de LevelRange."
-  LEVELRANGE_HELP3                = "/lr instances >> Alterna la visualización de mazmorras en el tooltip."
-  LEVELRANGE_HELP4                = "/lr pvp >> Alterna la visualización de diplomacia PvP en el tooltip."
-  LEVELRANGE_HELP5                = "/lr fishing >> Alterna la visualización del requisito mínimo de pesca en el tooltip."
-  LEVELRANGE_HELP6                = "Comando largo: /levelrange también puede usarse en lugar de /lr."
-  
+  LEVELRANGE_HELP0                = "Use os seguintes comandos para alterar as opções do LevelRange."
+  LEVELRANGE_HELP1                = "/lr >> Abre o painel de opções do LevelRange."
+  LEVELRANGE_HELP2                = "/lr toggle >> Alterna a exibição do tooltip do LevelRange."
+  LEVELRANGE_HELP3                = "/lr instances >> Alterna a exibição de masmorras no tooltip."
+  LEVELRANGE_HELP4                = "/lr pvp >> Alterna a exibição da diplomacia JxJ no tooltip."
+  LEVELRANGE_HELP5                = "/lr fishing >> Alterna a exibição do requisito mínimo de pesca no tooltip."
+  LEVELRANGE_HELP6                = "Comando longo: /levelrange também pode ser usado no lugar de /lr."
+
   -- Toggle Message Strings
-  LEVELRANGE_ON                   = "ACTIVADO"
-  LEVELRANGE_OFF                  = "DESACTIVADO"
-  
+  LEVELRANGE_ON                   = "ATIVADO"
+  LEVELRANGE_OFF                  = "DESATIVADO"
+
   LEVELRANGE_ENABLED              = "Habilitado."
-  LEVELRANGE_DISABLED             = "Deshabilitado."
-  
-  LEVELRANGE_TOGGLESHOW           = "Tooltip de LevelRange"
-  LEVELRANGE_TOGGLEINSTANCES      = "Mostrar mazmorras de LevelRange"
-  LEVELRANGE_TOGGLERAIDS          = "Mostrar bandas de LevelRange"
-  LEVELRANGE_TOGGLEPVP            = "Mostrar diplomacia PvP de LevelRange"
+  LEVELRANGE_DISABLED             = "Desabilitado."
+
+  LEVELRANGE_TOGGLESHOW           = "Tooltip do LevelRange"
+  LEVELRANGE_TOGGLEINSTANCES      = "Mostrar masmorras do LevelRange"
+  LEVELRANGE_TOGGLERAIDS          = "Mostrar raides do LevelRange"
+  LEVELRANGE_TOGGLEPVP            = "Mostrar diplomacia JxJ do LevelRange"
   LEVELRANGE_TOGGLEFISHING        = "Mostrar requisito mínimo de pesca"
-  
+
   -- Options Frame Strings
-  LEVELRANGE_OPTIONS_TITLE        = "Opciones de LevelRange"
-  LEVELRANGE_OPTIONS_CLOSE        = "Cerrar"
+  LEVELRANGE_OPTIONS_TITLE        = "Opções do LevelRange"
+  LEVELRANGE_OPTIONS_CLOSE        = "Fechar"
 
   LEVELRANGE_OPTIONS              = {};
   LEVELRANGE_OPTIONS[1]           = {   -- Option 1
-      label                       = "Habilitado LevelRange",
+      label                       = "LevelRange habilitado",
       option                      = "showLevelRange",
-      tooltip                     = "Mostrar/ocultar LevelRange en tooltip",
+      tooltip                     = "Mostrar/ocultar LevelRange na tooltip",
       children                    = {2, 3, 4, 5},
   };
   LEVELRANGE_OPTIONS[2]           = {   -- Option 2
-      label                       = "Mostrar mazmorras",
+      label                       = "Mostrar masmorras",
       option                      = "showInstances",
-      tooltip                     = "Mostrar/ocultar mazmorras en tooltip",
+      tooltip                     = "Mostrar/ocultar masmorras na dica de tela",
   };
   LEVELRANGE_OPTIONS[3]           = {   -- Option 3
-      label                       = "Mostrar bandas",
+      label                       = "Mostrar raides",
       option                      = "showRaids",
-      tooltip                     = "Mostar/ocultar bandas en tooltip",
+      tooltip                     = "Mostrar/ocultar raides na dica de tela",
   };
   LEVELRANGE_OPTIONS[4]           = {   -- Option 4
-      label                       = "Mostar diplomacia PvP",
+      label                       = "Mostrar diplomacia JxJ",
       option                      = "showPvP",
-      tooltip                     = "Mostar/ocultar diplomacia PvP en tooltip",
+      tooltip                     = "Mostrar/ocultar diplomacia JxJ na dica de tela",
   };
   LEVELRANGE_OPTIONS[5]           = {   -- Option 5
-      label                       = "Mostrar nivel de pesca requerido",
+      label                       = "Mostrar nível de pesca necessário",
       option                      = "showFishing",
-      tooltip                     = "Mostrar/ocultar nivel pesca requerido en tooltip",
+      tooltip                     = "Mostrar/ocultar nível de pesca necessário na dica de tela",
   };
-  
+
   LEVELRANGE_DEFAULT_OPTS         = {
       ["showLevelRange"]          = true,
       ["showInstances"]           = true,

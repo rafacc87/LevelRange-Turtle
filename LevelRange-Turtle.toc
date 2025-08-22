@@ -11,4 +11,8 @@
 ## URL: https://github.com/Spartelfant/LevelRange-Turtle
 ## OptionalDeps: myAddOns
 ## SavedVariables: LevelRangeSettings
+Locale\LevelRange-enUS.lua
+Locale\LevelRange-esES.lua
+Locale\LevelRange-ptBR.lua
+LevelRange.lua
 LevelRange.xml
