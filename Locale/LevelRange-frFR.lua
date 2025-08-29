@@ -1,149 +1,149 @@
 --
--- LevelRange :: Translatable Strings - English
--- Copyright (c) 2006 Philip Hughes (Bull3t)
+-- LevelRange :: Translatable Strings - French
+-- Copyright (c) 2006-2025 Philip Hughes (Bull3t) / Diginfotek
 --
 --------------------------------------------------------------------------------------------------
--- Localised Strings - English
+-- Localised Strings - French
 --------------------------------------------------------------------------------------------------
 
 -- LevelRange
 LEVELRANGE_NAME                 = "LevelRange";
-LEVELRANGE_DESCRIPTION          = "Shows the zone level range on the World Map";
+LEVELRANGE_DESCRIPTION          = "Montre les niveaux des régions sur la carte du monde";
 
 -- Factions
 LEVELRANGE_ALLIANCE             = "Alliance";
 LEVELRANGE_HORDE                = "Horde";
-LEVELRANGE_CONTESTED            = "Contested";
-LEVELRANGE_FRIENDLY             = "Friendly";
+LEVELRANGE_CONTESTED            = "Contesté";
+LEVELRANGE_FRIENDLY             = "Amicale";
 LEVELRANGE_HOSTILE              = "Hostile";
 
 -- Zones
-LEVELRANGE_1KNEEDLES            = "Thousand Needles";
-LEVELRANGE_ALTERAC              = "Alterac Mountains";
-LEVELRANGE_ARATHI               = "Arathi Highlands";
-LEVELRANGE_ASHENVALE            = "Ashenvale";
+LEVELRANGE_1KNEEDLES            = "Mille Pointes";
+LEVELRANGE_ALTERAC              = "Montagnes d'Alterac";
+LEVELRANGE_ARATHI               = "Hautes-Terres Arathies";
+LEVELRANGE_ASHENVALE            = "Orneval";
 LEVELRANGE_AZSHARA              = "Azshara";
-LEVELRANGE_BADLANDS             = "Badlands";
-LEVELRANGE_BARRENS              = "The Barrens";
-LEVELRANGE_BLASTEDLANDS         = "Blasted Lands";
-LEVELRANGE_BURNINGSTEPPE        = "Burning Steppes";
-LEVELRANGE_DARKSHORE            = "Darkshore";
-LEVELRANGE_DEADWINDPASS         = "Deadwind Pass";
-LEVELRANGE_DESOLACE             = "Desolace";
+LEVELRANGE_BADLANDS             = "Terres Ingrates";
+LEVELRANGE_BARRENS              = "Les Tarides";
+LEVELRANGE_BLASTEDLANDS         = "Terres Foudroyées";
+LEVELRANGE_BURNINGSTEPPE        = "Steppes Ardentes";
+LEVELRANGE_DARKSHORE            = "Sombrivage";
+LEVELRANGE_DEADWINDPASS         = "Défilé de Deuillevent";
+LEVELRANGE_DESOLACE             = "Désolace";
 LEVELRANGE_DUNMOROGH            = "Dun Morogh";
 LEVELRANGE_DUROTAR              = "Durotar";
-LEVELRANGE_DUSKWOOD             = "Duskwood";
-LEVELRANGE_DUSTWALLOW           = "Dustwallow Marsh";
-LEVELRANGE_EASTERNPLAGUE        = "Eastern Plaguelands";
-LEVELRANGE_ELWYNN               = "Elwynn Forest";
-LEVELRANGE_FELWOOD              = "Felwood";
-LEVELRANGE_FERALAS              = "Feralas";
-LEVELRANGE_HILLSBRAD            = "Hillsbrad Foothills";
-LEVELRANGE_HINTERLANDS          = "The Hinterlands";
+LEVELRANGE_DUSKWOOD             = "Bois de la Pénombre";
+LEVELRANGE_DUSTWALLOW           = "Marécage d'Aprefange";
+LEVELRANGE_EASTERNPLAGUE        = "Maleterres de l'Est";
+LEVELRANGE_ELWYNN               = "Forêt d'Elwynn";
+LEVELRANGE_FELWOOD              = "Gangrebois";
+LEVELRANGE_FERALAS              = "Féralas";
+LEVELRANGE_HILLSBRAD            = "Contreforts de Hautebrande";
+LEVELRANGE_HINTERLANDS          = "Hinterlands";
 LEVELRANGE_LOCHMODAN            = "Loch Modan";
-LEVELRANGE_MOONGLADE            = "Moonglade";
+LEVELRANGE_MOONGLADE            = "Reflet-de-Lune";
 LEVELRANGE_MULGORE              = "Mulgore";
-LEVELRANGE_REDRIDGE             = "Redridge Mountains";
-LEVELRANGE_SEARINGGORGE         = "Searing Gorge";
+LEVELRANGE_REDRIDGE             = "Les Carmines";
+LEVELRANGE_SEARINGGORGE         = "Gorge des Vents Brûlants";
 LEVELRANGE_SILITHUS             = "Silithus";
-LEVELRANGE_SILVERPINE           = "Silverpine Forest";
-LEVELRANGE_SORROWS              = "Swamp of Sorrows";
-LEVELRANGE_STONETALON           = "Stonetalon Mountains";
-LEVELRANGE_STRANGLETHORN        = "Stranglethorn Vale";
+LEVELRANGE_SILVERPINE           = "Forêt des Pins Argentés";
+LEVELRANGE_SORROWS              = "Marais des Chagrins";
+LEVELRANGE_STONETALON           = "Les Serres-Rocheuses";
+LEVELRANGE_STRANGLETHORN        = "Vallée de Strangleronce";
 LEVELRANGE_TANARIS              = "Tanaris";
 LEVELRANGE_TELDRASSIL           = "Teldrassil";
-LEVELRANGE_TIRISFAL             = "Tirisfal Glades";
-LEVELRANGE_UNGOROCRATER         = "Un'Goro Crater";
-LEVELRANGE_WESTERNPLAGUE        = "Western Plaguelands";
-LEVELRANGE_WESTFALL             = "Westfall";
-LEVELRANGE_WETLANDS             = "Wetlands";
-LEVELRANGE_WINTERSPRING         = "Winterspring";
+LEVELRANGE_TIRISFAL             = "Clairières de Tirisfal";
+LEVELRANGE_UNGOROCRATER         = "Cratère d'Un'Goro";
+LEVELRANGE_WESTERNPLAGUE        = "Maleterres de l'Ouest";
+LEVELRANGE_WESTFALL             = "Marches de l'Ouest";
+LEVELRANGE_WETLANDS             = "Les Paluns";
+LEVELRANGE_WINTERSPRING         = "Berceau-de-l'Hiver";
 
 -- Turtle WoW Zones
-LEVELRANGE_BLACKSTONEISLAND     = "Blackstone Island";
-LEVELRANGE_GILLIJIM             = "Gillijim's Isle";
-LEVELRANGE_GILNEAS              = "Gilneas";
+LEVELRANGE_BLACKSTONEISLAND     = "L'Île de la Pierre Noire";
+LEVELRANGE_GILLIJIM             = "L'Île de Gillijim";
+LEVELRANGE_GILNEAS              = "Gilnéas";
 LEVELRANGE_HYJAL                = "Hyjal";
-LEVELRANGE_LAPIDIS              = "Lapidis Isle";
-LEVELRANGE_SCARLETENCLAVE       = "Scarlet Enclave";
+LEVELRANGE_LAPIDIS              = "L'Île Lapis";
+LEVELRANGE_SCARLETENCLAVE       = "L'Enclave Écalarte";
 LEVELRANGE_TELABIM              = "Tel'Abim";
-LEVELRANGE_THALASSIANHIGHLANDS  = "Thalassian Highlands";
+LEVELRANGE_THALASSIANHIGHLANDS  = "Hautes-Terres Thalassiennes";
 -- added in patch 1.18
-LEVELRANGE_GRIMREACHES          = "Grim Reaches";
-LEVELRANGE_NORTHWIND            = "Northwind";
+LEVELRANGE_GRIMREACHES          = "Biefs Sinistres";
+LEVELRANGE_NORTHWIND            = "Norvent";
 LEVELRANGE_BALOR                = "Balor";
 
 -- Sub-zones
 LEVELRANGE_DARNASSUS            = "Darnassus";
-LEVELRANGE_IRONFORGE            = "Ironforge";
+LEVELRANGE_IRONFORGE            = "Forgefer";
 LEVELRANGE_ORGRIMMAR            = "Orgrimmar";
-LEVELRANGE_STORMWIND            = "Stormwind City";
-LEVELRANGE_THUNDERBLUFF         = "Thunder Bluff";
-LEVELRANGE_UNDERCITY            = "Undercity";
+LEVELRANGE_STORMWIND            = "Hurlevent";
+LEVELRANGE_THUNDERBLUFF         = "Pitons-du-Tonnerre";
+LEVELRANGE_UNDERCITY            = "Fossoyeuse";
 
 -- Turtle WoW Sub-zones
 LEVELRANGE_ALAHTHALAS           = "Alah'Thalas";
-LEVELRANGE_RUINSOFZULRASAZ      = "Ruins of Zul'rasaz";
-LEVELRANGE_TIRISFALUPLANDS      = "Tirisfal Uplands";
+LEVELRANGE_RUINSOFZULRASAZ      = "Ruines de Zul'rasaz";
+LEVELRANGE_TIRISFALUPLANDS      = "Hautes-Terres de Tirisfal";
 -- added in patch 1.18
-LEVELRANGE_SLICKWICKOILRIG      = "Slickwick Oil Rig";
-LEVELRANGE_RUGFORDSMOUNTAINREST = "Rugford's Mountain Rest";
-LEVELRANGE_EARTHENRING          = "Earthen Ring";
+LEVELRANGE_SLICKWICKOILRIG      = "Plateforme de Nappebourg";
+LEVELRANGE_RUGFORDSMOUNTAINREST = "Mont-Repos de Rugford";
+LEVELRANGE_EARTHENRING          = "Anneau de Terre";
 
 -- Dungeons
-LEVELRANGE_INSTANCESTEXT        = "Instances:";
+LEVELRANGE_INSTANCESTEXT        = "Instances :";
 
-LEVELRANGE_BLACKFATHOMDEEPS     = "Blackfathom Deeps";
-LEVELRANGE_BLACKROCKDEPTH       = "Blackrock Depths";
-LEVELRANGE_BLACKROCKSPIRE       = "Blackrock Spire";
-LEVELRANGE_DEADMINES            = "Deadmines";
-LEVELRANGE_DIREMAUL             = "Dire Maul";
+LEVELRANGE_BLACKFATHOMDEEPS     = "Profondeurs de Brassenoire";
+LEVELRANGE_BLACKROCKDEPTH       = "Profondeurs de Rochenoire";
+LEVELRANGE_BLACKROCKSPIRE       = "Pic de Rochenoire";
+LEVELRANGE_DEADMINES            = "Mortemines";
+LEVELRANGE_DIREMAUL             = "Haches-Tripes";
 LEVELRANGE_GNOMEREGAN           = "Gnomeregan";
 LEVELRANGE_MARAUDON             = "Maraudon";
-LEVELRANGE_RAGEFIRECHASM        = "Ragefire Chasm";
-LEVELRANGE_RAZORFENDOWNS        = "Razorfen Downs";
-LEVELRANGE_RAZORFENKRAUL        = "Razorfen Kraul";
-LEVELRANGE_SCARLETMONASTERY     = "The Scarlet Monastery";
+LEVELRANGE_RAGEFIRECHASM        = "Gouffre de Ragefeu";
+LEVELRANGE_RAZORFENDOWNS        = "Souilles de Tranchebauge";
+LEVELRANGE_RAZORFENKRAUL        = "Kraal de Tranchebauge";
+LEVELRANGE_SCARLETMONASTERY     = "Monastère Écarlate";
 LEVELRANGE_SCHOLOMANCE          = "Scholomance";
-LEVELRANGE_SHADOWFANGKEEP       = "Shadowfang Keep";
-LEVELRANGE_STOCKADES            = "The Stockades";
+LEVELRANGE_SHADOWFANGKEEP       = "Donjon d'Ombrecroc";
+LEVELRANGE_STOCKADES            = "La Prison";
 LEVELRANGE_STRATHOLME           = "Stratholme";
-LEVELRANGE_SUNKENTEMPLE         = "The Sunken Temple";
+LEVELRANGE_SUNKENTEMPLE         = "Temple d'Atal'Hakkar";
 LEVELRANGE_ULDAMAN              = "Uldaman";
-LEVELRANGE_WAILINGCAVERNS       = "Wailing Caverns";
+LEVELRANGE_WAILINGCAVERNS       = "Cavernes des Lamentations";
 LEVELRANGE_ZULFARRAK            = "Zul'Farrak";
 
 -- Turtle WoW Dungeons
-LEVELRANGE_COTBLACKMORASS       = "Caverns of Time: The Black Morass";
-LEVELRANGE_CRESCENTGROVE        = "The Crescent Grove";
-LEVELRANGE_GILNEASCITY          = "Gilneas City";
-LEVELRANGE_HATEFORGEQUARRY      = "Hateforge Quarry";
-LEVELRANGE_KARAZHANCRYPT        = "Karazhan Crypt";
-LEVELRANGE_STORMWINDVAULT       = "Stormwind Vault";
+LEVELRANGE_COTBLACKMORASS       = "Grottes du Temps : Le Noir Marécage";
+LEVELRANGE_CRESCENTGROVE        = "Le Bosquet Croissant";
+LEVELRANGE_GILNEASCITY          = "La Citée Gilnéas";
+LEVELRANGE_HATEFORGEQUARRY      = "Carrière de Forgehaine";
+LEVELRANGE_KARAZHANCRYPT        = "La Crypte de Karazhan";
+LEVELRANGE_STORMWINDVAULT       = "Chambre Forte d'Hurlevent";
 -- added in patch 1.18
-LEVELRANGE_STORMWROUGHTRUINS    = "Stormwrought Ruins";
-LEVELRANGE_DRAGONMAWRETREAT     = "Dragonmaw Retreat";
+LEVELRANGE_STORMWROUGHTRUINS    = "Ruines Forgétempête";
+LEVELRANGE_DRAGONMAWRETREAT     = "Repli de Dragonmaw";
 
 -- Raids
-LEVELRANGE_RAIDSTEXT            = "Raids:";
+LEVELRANGE_RAIDSTEXT            = "Raids :";
 
 LEVELRANGE_NAXXRAMAS            = "Naxxramas";
-LEVELRANGE_ONYXIASLAIR          = "Onyxia's Lair";
-LEVELRANGE_RUINSAHNQIRAJ        = "Ruins of Ahn'Qiraj";
-LEVELRANGE_TEMPLEAHNQIRAJ       = "Temple of Ahn'Qiraj";
+LEVELRANGE_ONYXIASLAIR          = "Repaire d'Onyxia";
+LEVELRANGE_RUINSAHNQIRAJ        = "Ruines d'Ahn'Qiraj";
+LEVELRANGE_TEMPLEAHNQIRAJ       = "Temple d'Ahn'Qiraj";
 LEVELRANGE_ZULGURUB             = "Zul'Gurub";
 
 -- Turtle WoW Raids
-LEVELRANGE_EMERALDSANCTUM       = "Emerald Sanctum";
-LEVELRANGE_LOWERKARAZHANHALLS   = "Lower Karazhan Halls";
+LEVELRANGE_EMERALDSANCTUM       = "Sanctum d'Émeraude";
+LEVELRANGE_LOWERKARAZHANHALLS   = "Les Salles de Karazhan Inférieures";
 
 -- General Strings
-LEVELRANGE_LEVELS               = "Levels %d - %d";
-LEVELRANGE_FLEVEL               = "Fishing Level %d";
+LEVELRANGE_LEVELS               = "Niveaux %d - %d";
+LEVELRANGE_FLEVEL               = "Niveau de Pêche %d";
 
 -- Message Strings
-LEVELRANGE_LOADEDPREFIX         = "LevelRange version "
-LEVELRANGE_LOADEDSUFFIX         = " loaded."
+LEVELRANGE_LOADEDPREFIX         = "Version de LevelRange "
+LEVELRANGE_LOADEDSUFFIX         = " chargée."
 
 -- Instances List
 LEVELRANGE_INSTANCES1           = LEVELRANGE_DEADMINES        .. " (17, 26)"
@@ -167,57 +167,57 @@ LEVELRANGE_INSTANCES18          = LEVELRANGE_STOCKADES        .. " (24, 32)"
 LEVELRANGE_INSTANCES19          = LEVELRANGE_ZULFARRAK        .. " (44, 54)"
 
 -- Help Strings
-LEVELRANGE_HELP0                = "Use the following commands to change LevelRange options."
-LEVELRANGE_HELP1                = "/lr >> Open LevelRange options frame."
-LEVELRANGE_HELP2                = "/lr toggle >> Toggle showing of the LevelRange tooltip."
-LEVELRANGE_HELP3                = "/lr instances >> Toggle showing of instances on the tooltip."
-LEVELRANGE_HELP4                = "/lr pvp >> Toggle showing of PvP diplomacy on the tooltip."
-LEVELRANGE_HELP5                = "/lr fishing >> Toggle display of minimum fishing level requirement on tooltip."
-LEVELRANGE_HELP6                = "Long Command: /levelrange can also be used inplace of /lr."
+LEVELRANGE_HELP0                = "Utilisez les commandes suivantes pour changer les configurations de LevelRange."
+LEVELRANGE_HELP1                = "/lr >> Ouvre le panneau de configuration de LevelRange."
+LEVELRANGE_HELP2                = "/lr toggle >>  Activer/désactiver l'affichage de l'info-bulle de LevelRange."
+LEVELRANGE_HELP3                = "/lr instances >> Activer/désactiver l'affichage des instances dans l'info-bulle."
+LEVELRANGE_HELP4                = "/lr pvp >> Activer/désactiver l'affichage de la diplomatie PvP dans l'info-bulle."
+LEVELRANGE_HELP5                = "/lr fishing >> Activer/désactiver l'affichage du niveau minimum de pêche requis dans l'info-bulle."
+LEVELRANGE_HELP6                = "La commande : /levelrange peut être aussi utilisée à la place de /lr."
 
 -- Toggle Message Strings
 LEVELRANGE_ON                   = "ON"
 LEVELRANGE_OFF                  = "OFF"
 
-LEVELRANGE_ENABLED              = "Enabled."
-LEVELRANGE_DISABLED             = "Disabled."
+LEVELRANGE_ENABLED              = "Activée."
+LEVELRANGE_DISABLED             = "Désactivée."
 
-LEVELRANGE_TOGGLESHOW           = "LevelRange Tooltip"
-LEVELRANGE_TOGGLEINSTANCES      = "Display LevelRange Instances"
-LEVELRANGE_TOGGLERAIDS          = "Display LevelRange Raids"
-LEVELRANGE_TOGGLEPVP            = "Display LevelRange PvP Diplomacy"
-LEVELRANGE_TOGGLEFISHING        = "Display Minimum fishing level requirement"
+LEVELRANGE_TOGGLESHOW           = "Info-bulle de LevelRange"
+LEVELRANGE_TOGGLEINSTANCES      = "Afficher les Instances LevelRange"
+LEVELRANGE_TOGGLERAIDS          = "Afficher les Raids LevelRange"
+LEVELRANGE_TOGGLEPVP            = "Afficher la Diplomatie PvP LevelRange"
+LEVELRANGE_TOGGLEFISHING        = "Afficher le Niveau Minimum de Pêche Requis"
 
 -- Options Frame Strings
-LEVELRANGE_OPTIONS_TITLE        = "LevelRange Options"
-LEVELRANGE_OPTIONS_CLOSE        = "Close"
+LEVELRANGE_OPTIONS_TITLE        = "Configuration de LevelRange"
+LEVELRANGE_OPTIONS_CLOSE        = "Fermer"
 
 LEVELRANGE_OPTIONS              = {};
 LEVELRANGE_OPTIONS[1]           = {   -- Option 1
-    label                       = "Enable LevelRange",
+    label                       = "Activer LevelRange",
     option                      = "showLevelRange",
-    tooltip                     = "Show/hide LevelRange tooltip",
+    tooltip                     = "Montrer/cacher l'info-bulle LevelRange",
     children                    = {2, 3, 4, 5},
 };
 LEVELRANGE_OPTIONS[2]           = {   -- Option 2
-    label                       = "Show Instances",
+    label                       = "Montrer les Instances",
     option                      = "showInstances",
-    tooltip                     = "Show/hide instances on tooltip",
+    tooltip                     = "Montrer/cacher les instances dans l'info-bulle",
 };
 LEVELRANGE_OPTIONS[3]           = {   -- Option 3
-    label                       = "Show Raids",
+    label                       = "Montrer les Raids",
     option                      = "showRaids",
-    tooltip                     = "Show/hide raids on tooltip",
+    tooltip                     = "Montrer/cacher les raids dans l'info-bulle",
 };
 LEVELRANGE_OPTIONS[4]           = {   -- Option 4
-    label                       = "Show PvP Diplomacy",
+    label                       = "Montrer la Diplomatie PvP",
     option                      = "showPvP",
-    tooltip                     = "Show/hide PvP Diplomacy on tooltip",
+    tooltip                     = "Montrer/cacher la Diplomatie PvP dans l'info-bulle",
 };
 LEVELRANGE_OPTIONS[5]           = {   -- Option 5
-    label                       = "Show Fishing level requirement",
+    label                       = "Montrer le Niveau de Pêche Requis",
     option                      = "showFishing",
-    tooltip                     = "Show/hide Fishing level requirement on tooltip",
+    tooltip                     = "Montrer/cacher le Niveau de Pêche Requis dans l'info-bulle",
 };
 
 LEVELRANGE_DEFAULT_OPTS         = {
