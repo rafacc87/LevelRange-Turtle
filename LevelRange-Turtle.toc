@@ -8,6 +8,7 @@
 ## Notes-deDE: Zeigt die Levelbereiche der Zonen auf der Weltkarte. Jetzt mit 100 % mehr Schildkröten!
 ## Notes-zhCN: 在世界地图上显示区域等级范围。现在有 100% 更多的海龟!
 ## Notes-ruRU: Показывает диапазон уровней зон на карте мира. Теперь на 100% больше черепах!
+## Notes-frFR: Shows the zone level range on the World Map. Now with 100% more turtles!
 ## URL: https://github.com/Spartelfant/LevelRange-Turtle
 ## OptionalDeps: myAddOns
 ## SavedVariables: LevelRangeSettings
@@ -15,5 +16,6 @@ Locale\LevelRange-enUS.lua
 Locale\LevelRange-esES.lua
 Locale\LevelRange-ptBR.lua
 Locale\LevelRange-deDE.lua
+Locale\LevelRange-frFR.lua
 LevelRange.lua
 LevelRange.xml
