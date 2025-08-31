@@ -1,6 +1,6 @@
 --
 -- LevelRange :: Translatable Strings - Spanish
--- Copyright (c) 2025 Rafael Calafell (rafacc87)
+-- Copyright (c) 2006-2025  Philip Hughes (Bull3t) / Rafael Calafell (rafacc87)
 --
 --------------------------------------------------------------------------------------------------
 -- Localised Strings - Spanish

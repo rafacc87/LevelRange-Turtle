@@ -17,5 +17,6 @@ Locale\LevelRange-esES.lua
 Locale\LevelRange-ptBR.lua
 Locale\LevelRange-deDE.lua
 Locale\LevelRange-frFR.lua
+Locale\LevelRange-chZN.lua
 LevelRange.lua
 LevelRange.xml
