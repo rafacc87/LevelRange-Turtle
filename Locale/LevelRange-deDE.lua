@@ -1,9 +1,9 @@
 --
--- LevelRange :: Translatable Strings - Spanish
+-- LevelRange :: Translatable Strings - German
 -- Copyright (c) 2006-2025  Philip Hughes (Bull3t) / Rafael Calafell (rafacc87)
 --
 --------------------------------------------------------------------------------------------------
--- Localised Strings - Spanish
+-- Localised Strings - German
 --------------------------------------------------------------------------------------------------
 
 if (GetLocale() == "deDE") then
