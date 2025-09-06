@@ -18,7 +18,7 @@
 LEVELRANGE_NAME     = "LevelRange"
 
 -- Version Number
-LEVELRANGE_VERSION  = "2.1.0";
+LEVELRANGE_VERSION  = "2.2.0";
 
 -- Details
 Details = {
