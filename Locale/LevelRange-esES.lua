@@ -94,24 +94,24 @@ if (GetLocale() == "esES") then
   -- Dungeons
   LEVELRANGE_INSTANCESTEXT        = "Mazmorras:";
   
-  LEVELRANGE_BLACKFATHOMDEEPS     = "Blackfathom Deeps";
-  LEVELRANGE_BLACKROCKDEPTH       = "Blackrock Depths";
-  LEVELRANGE_BLACKROCKSPIRE       = "Blackrock Spire";
-  LEVELRANGE_DEADMINES            = "Deadmines";
-  LEVELRANGE_DIREMAUL             = "Dire Maul";
+  LEVELRANGE_BLACKFATHOMDEEPS     = "Cavernas de Brazanegra";
+  LEVELRANGE_BLACKROCKDEPTH       = "Profundidades de Roca Negra";
+  LEVELRANGE_BLACKROCKSPIRE       = "Cumbre de Roca Negra";
+  LEVELRANGE_DEADMINES            = "Las Minas de la Muerte";
+  LEVELRANGE_DIREMAUL             = "La Masacre";
   LEVELRANGE_GNOMEREGAN           = "Gnomeregan";
   LEVELRANGE_MARAUDON             = "Maraudon";
-  LEVELRANGE_RAGEFIRECHASM        = "Ragefire Chasm";
-  LEVELRANGE_RAZORFENDOWNS        = "Razorfen Downs";
-  LEVELRANGE_RAZORFENKRAUL        = "Razorfen Kraul";
-  LEVELRANGE_SCARLETMONASTERY     = "The Scarlet Monastery";
+  LEVELRANGE_RAGEFIRECHASM        = "Sima Ígnea";
+  LEVELRANGE_RAZORFENDOWNS        = "Zahúrda Rojocieno";
+  LEVELRANGE_RAZORFENKRAUL        = "Horado Rajacieno";
+  LEVELRANGE_SCARLETMONASTERY     = "Monasterio Escarlata";
   LEVELRANGE_SCHOLOMANCE          = "Scholomance";
-  LEVELRANGE_SHADOWFANGKEEP       = "Shadowfang Keep";
-  LEVELRANGE_STOCKADES            = "The Stockades";
+  LEVELRANGE_SHADOWFANGKEEP       = "Castillo de Colmillo Oscuro";
+  LEVELRANGE_STOCKADES            = "Mazmorras de Ventormenta";
   LEVELRANGE_STRATHOLME           = "Stratholme";
   LEVELRANGE_SUNKENTEMPLE         = "The Sunken Temple";
   LEVELRANGE_ULDAMAN              = "Uldaman";
-  LEVELRANGE_WAILINGCAVERNS       = "Wailing Caverns";
+  LEVELRANGE_WAILINGCAVERNS       = "Cuevas de los Lamentos";
   LEVELRANGE_ZULFARRAK            = "Zul'Farrak";
   
   -- Turtle WoW Dungeons
@@ -129,9 +129,9 @@ if (GetLocale() == "esES") then
   LEVELRANGE_RAIDSTEXT            = "Bandas:";
   
   LEVELRANGE_NAXXRAMAS            = "Naxxramas";
-  LEVELRANGE_ONYXIASLAIR          = "Onyxia's Lair";
-  LEVELRANGE_RUINSAHNQIRAJ        = "Ruins of Ahn'Qiraj";
-  LEVELRANGE_TEMPLEAHNQIRAJ       = "Temple of Ahn'Qiraj";
+  LEVELRANGE_ONYXIASLAIR          = "Guarida de Onyxia";
+  LEVELRANGE_RUINSAHNQIRAJ        = "Ruinas de Ahn'Qiraj";
+  LEVELRANGE_TEMPLEAHNQIRAJ       = "Templo de Ahn'Qiraj";
   LEVELRANGE_ZULGURUB             = "Zul'Gurub";
   
   -- Turtle WoW Raids
