@@ -9,9 +9,9 @@ Details
 ----------------------
 Title: 	        LevelRange
 Interface:      11200
-Version:        2.1.0
+Version:        2.2.0
 
-Author:         Bull3t, Tenyar97, rado-boy, blehz, rafacc87, Spartelfant.
+Author:         Bull3t, Tenyar97, rado-boy, blehz, rafacc87, Diginfotek, Spartelfant.
 Addon Website:  https://github.com/Tenyar97/LevelRange-Turtle
 
 Current Features:
@@ -22,6 +22,14 @@ Current Features:
 ----------------------
 Change Log
 ----------------------
+2.2.0 - Update (Spartelfant)
+ [*] Added Portuguese translation by rafacc87.
+ [*] Added German translation by rafacc87.
+ [*] Added French translation by Diginfotek.
+ [*] Added Chinese translation by rafacc87.
+ [*] Rename dungeons and raids in spanish.
+ [*] Restructure translation files.
+
 2.1.0 - Update (Spartelfant)
  [*] Added Spanish translation by rafacc87.
 
